@@ -1,0 +1,375 @@
+{
+  "uid" : "a187134160c15564",
+  "name" : "Test 02: Verify desktop page header text",
+  "fullName" : "SanityTests.NopCommerceWeb.Test02_desktopsHeader",
+  "historyId" : "826bf92684c0cc2926e234db937c618b",
+  "time" : {
+    "start" : 1581076487908,
+    "stop" : 1581076489625,
+    "duration" : 1717
+  },
+  "description" : "Test Description: Verify desktop page header",
+  "descriptionHtml" : "<p>Test Description: Verify desktop page header</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "startSession",
+    "time" : {
+      "start" : 1581076471432,
+      "stop" : 1581076482434,
+      "duration" : 11002
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "Test Description: Verify desktop page header",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Check page header",
+      "time" : {
+        "start" : 1581076487914,
+        "stop" : 1581076489393,
+        "duration" : 1479
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Mouse hover from element to element action",
+        "time" : {
+          "start" : 1581076488024,
+          "stop" : 1581076489393,
+          "duration" : 1369
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elm1",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (225d73a1171f54381f9996cb47176c7d)] -> xpath: //*[@href='/computers']]"
+        }, {
+          "name" : "elm2",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (225d73a1171f54381f9996cb47176c7d)] -> xpath: //a[@href='/desktops']]"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 1
+    }, {
+      "name" : "Verify text in element",
+      "time" : {
+        "start" : 1581076489443,
+        "stop" : 1581076489625,
+        "duration" : 182
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "elm",
+        "value" : "[[ChromeDriver: chrome on WINDOWS (225d73a1171f54381f9996cb47176c7d)] -> tag name: h1]"
+      }, {
+        "name" : "expValue",
+        "value" : "Desktops"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 3
+  },
+  "afterStages" : [ {
+    "name" : "closeSession",
+    "time" : {
+      "start" : 1581076521772,
+      "stop" : 1581076522636,
+      "duration" : 864
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "afterMethod",
+    "time" : {
+      "start" : 1581076489637,
+      "stop" : 1581076491092,
+      "duration" : 1455
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "SanityTests.NopCommerceWeb"
+  }, {
+    "name" : "testClass",
+    "value" : "SanityTests.NopCommerceWeb"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test02_desktopsHeader"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Web Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "SanityTests.NopCommerceWeb"
+  }, {
+    "name" : "host",
+    "value" : "IL-DOMER-W"
+  }, {
+    "name" : "thread",
+    "value" : "15464@IL-DOMER-W.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "PlatformName",
+    "value" : "web"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "4eee05259529217d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1581075853713,
+        "stop" : 1581075855608,
+        "duration" : 1895
+      }
+    }, {
+      "uid" : "d6f972faba860a51",
+      "status" : "passed",
+      "time" : {
+        "start" : 1581069335975,
+        "stop" : 1581069338215,
+        "duration" : 2240
+      }
+    }, {
+      "uid" : "b2f7557a46ff98ad",
+      "status" : "passed",
+      "time" : {
+        "start" : 1581068981125,
+        "stop" : 1581068983654,
+        "duration" : 2529
+      }
+    }, {
+      "uid" : "d51261807bda0e36",
+      "status" : "passed",
+      "time" : {
+        "start" : 1581068828601,
+        "stop" : 1581068831146,
+        "duration" : 2545
+      }
+    }, {
+      "uid" : "5309ca6226c6c2e2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1581017803956,
+        "stop" : 1581017805863,
+        "duration" : 1907
+      }
+    }, {
+      "uid" : "a25f3014b3b4e85",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580964000134,
+        "stop" : 1580964002246,
+        "duration" : 2112
+      }
+    }, {
+      "uid" : "39d679ba41940fd6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580841472403,
+        "stop" : 1580841474291,
+        "duration" : 1888
+      }
+    }, {
+      "uid" : "e78ebdfcac57cdc9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580841334081,
+        "stop" : 1580841335988,
+        "duration" : 1907
+      }
+    }, {
+      "uid" : "f7cd137fa4569a32",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580837473974,
+        "stop" : 1580837475356,
+        "duration" : 1382
+      }
+    }, {
+      "uid" : "ccc7f23a9e6d1535",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580836823006,
+        "stop" : 1580836825600,
+        "duration" : 2594
+      }
+    }, {
+      "uid" : "1c83d88a974f8df4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580826568171,
+        "stop" : 1580826569150,
+        "duration" : 979
+      }
+    }, {
+      "uid" : "2d33cdb1633465c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580824732854,
+        "stop" : 1580824734703,
+        "duration" : 1849
+      }
+    }, {
+      "uid" : "5793434594609453",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580651961794,
+        "stop" : 1580651962763,
+        "duration" : 969
+      }
+    }, {
+      "uid" : "cbac252eb7872b82",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580633982426,
+        "stop" : 1580633983533,
+        "duration" : 1107
+      }
+    }, {
+      "uid" : "b2bf0bbf750a3d9e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580629580029,
+        "stop" : 1580629581078,
+        "duration" : 1049
+      }
+    }, {
+      "uid" : "763e07aada998023",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580593222977,
+        "stop" : 1580593224690,
+        "duration" : 1713
+      }
+    }, {
+      "uid" : "6b2963da6f9760a4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580592876378,
+        "stop" : 1580592878063,
+        "duration" : 1685
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 10,
+        "unknown" : 0,
+        "total" : 10
+      },
+      "items" : [ {
+        "uid" : "1ddea331d7e119a7",
+        "reportUrl" : "http://localhost:9090/job/Project%20Full%20Stack%20Final%20Project%20Web/9/allure/#testresult/1ddea331d7e119a7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1581075853713,
+          "stop" : 1581075855608,
+          "duration" : 1895
+        }
+      }, {
+        "uid" : "38a80236cdfed1c4",
+        "reportUrl" : "http://localhost:9090/job/Project%20Full%20Stack%20Final%20Project%20Web/8/allure/#testresult/38a80236cdfed1c4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1581068828601,
+          "stop" : 1581068831146,
+          "duration" : 2545
+        }
+      }, {
+        "uid" : "212ddabcff87981f",
+        "reportUrl" : "http://localhost:9090/job/Project%20Full%20Stack%20Final%20Project%20Web/7/allure/#testresult/212ddabcff87981f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580826568171,
+          "stop" : 1580826569150,
+          "duration" : 979
+        }
+      }, {
+        "uid" : "ccca1126209ac4f8",
+        "reportUrl" : "http://localhost:9090/job/Project%20Full%20Stack%20Final%20Project%20Web/6/allure/#testresult/ccca1126209ac4f8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580824732854,
+          "stop" : 1580824734703,
+          "duration" : 1849
+        }
+      }, {
+        "uid" : "422558b6bc4f4a6c",
+        "reportUrl" : "http://localhost:9090/job/Project%20Full%20Stack%20Final%20Project%20Web/5/allure/#testresult/422558b6bc4f4a6c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580651961794,
+          "stop" : 1580651962763,
+          "duration" : 969
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "a187134160c15564.json",
+  "parameterValues" : [ "web" ]
+}

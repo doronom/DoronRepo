@@ -1,0 +1,250 @@
+{
+  "uid" : "f12aae9c5f7cbb44",
+  "name" : "Test 01: Post team to Grafana and verify",
+  "fullName" : "SanityTests.grafanaAPI.Test01_postTeam",
+  "historyId" : "4f63bb63e68dc52747cc0a69805d43ee",
+  "time" : {
+    "start" : 1580592561455,
+    "stop" : 1580592563270,
+    "duration" : 1815
+  },
+  "description" : "Test Description: Post new team to Grafana and verify it",
+  "descriptionHtml" : "<p>Test Description: Post new team to Grafana and verify it</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "startSession",
+    "time" : {
+      "start" : 1580592558876,
+      "stop" : 1580592561411,
+      "duration" : 2535
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "Test Description: Post new team to Grafana and verify it",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Post Team to Grafana",
+      "time" : {
+        "start" : 1580592561514,
+        "stop" : 1580592562508,
+        "duration" : 994
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Post data to server",
+        "time" : {
+          "start" : 1580592561526,
+          "stop" : 1580592562508,
+          "duration" : 982
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "params",
+          "value" : "{\"name\":\"AutomationQA\",\"email\":\"automationQA@team889.com\"}"
+        }, {
+          "name" : "JsonIndex",
+          "value" : "/api/teams"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "name",
+        "value" : "AutomationQA"
+      }, {
+        "name" : "email",
+        "value" : "automationQA@team889.com"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 1
+    }, {
+      "name" : "Get Team From Grafana flow",
+      "time" : {
+        "start" : 1580592562508,
+        "stop" : 1580592563253,
+        "duration" : 745
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Get data from server ",
+        "time" : {
+          "start" : 1580592562509,
+          "stop" : 1580592562577,
+          "duration" : 68
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "paramsValues",
+          "value" : "/api/teams/search"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 0
+      }, {
+        "name" : "Extract value from Json format ",
+        "time" : {
+          "start" : 1580592562577,
+          "stop" : 1580592563253,
+          "duration" : 676
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "response",
+          "value" : "io.restassured.internal.RestAssuredResponseImpl@4cc7e3ad"
+        }, {
+          "name" : "path",
+          "value" : "teams[0].name"
+        }, {
+          "name" : "recordID",
+          "value" : "teams[0].id"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "jPath",
+        "value" : "teams[0].name"
+      }, {
+        "name" : "recordID",
+        "value" : "teams[0].id"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 2
+    }, {
+      "name" : "Verify text with text",
+      "time" : {
+        "start" : 1580592563265,
+        "stop" : 1580592563267,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actualText",
+        "value" : "AutomationQA"
+      }, {
+        "name" : "expectedText",
+        "value" : "AutomationQA"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 6
+  },
+  "afterStages" : [ {
+    "name" : "closeSession",
+    "time" : {
+      "start" : 1580592563656,
+      "stop" : 1580592563659,
+      "duration" : 3
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "afterMethod",
+    "time" : {
+      "start" : 1580592563383,
+      "stop" : 1580592563383,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "SanityTests.grafanaAPI"
+  }, {
+    "name" : "testClass",
+    "value" : "SanityTests.grafanaAPI"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test01_postTeam"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "suite",
+    "value" : "API Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "SanityTests.grafanaAPI"
+  }, {
+    "name" : "host",
+    "value" : "IL-DOMER-W"
+  }, {
+    "name" : "thread",
+    "value" : "16248@IL-DOMER-W.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "PlatformName",
+    "value" : "api"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f12aae9c5f7cbb44.json",
+  "parameterValues" : [ "api" ]
+}

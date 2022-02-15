@@ -1,0 +1,113 @@
+{
+  "uid" : "f160630e63240ead",
+  "name" : "Test 04: Build your own PC",
+  "fullName" : "SanityTests.NopCommerceWeb.Test04_verifyPrice_buildPC",
+  "historyId" : "17ff29db1da440200ef27d2334bdd2e7",
+  "time" : {
+    "start" : 1581017740052,
+    "stop" : 1581017745340,
+    "duration" : 5288
+  },
+  "description" : "Test Description: Build your own PC and verify the PC price",
+  "descriptionHtml" : "<p>Test Description: Build your own PC and verify the PC price</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "startSession",
+    "time" : {
+      "start" : 1581017720225,
+      "stop" : 1581017731639,
+      "duration" : 11414
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "closeSession",
+    "time" : {
+      "start" : 1581017746664,
+      "stop" : 1581017747589,
+      "duration" : 925
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "afterMethod",
+    "time" : {
+      "start" : 1581017745358,
+      "stop" : 1581017746649,
+      "duration" : 1291
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "SanityTests.NopCommerceWeb"
+  }, {
+    "name" : "testClass",
+    "value" : "SanityTests.NopCommerceWeb"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test04_verifyPrice_buildPC"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Web Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "SanityTests.NopCommerceWeb"
+  }, {
+    "name" : "host",
+    "value" : "IL-DOMER-W"
+  }, {
+    "name" : "thread",
+    "value" : "25636@IL-DOMER-W.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "PlatformName",
+    "value" : "web"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f160630e63240ead.json",
+  "parameterValues" : [ "web" ]
+}

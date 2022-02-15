@@ -1,0 +1,179 @@
+{
+  "uid" : "63ed8610df04b86b",
+  "name" : "Test 03: Delete team from Grafana and verify",
+  "fullName" : "SanityTests.grafanaAPI.Test03_deleteTeam",
+  "historyId" : "b22d88a99685aa0c988aacecd77cd114",
+  "time" : {
+    "start" : 1581068070962,
+    "stop" : 1581068071177,
+    "duration" : 215
+  },
+  "description" : "Test Description: Delete team from Grafana",
+  "descriptionHtml" : "<p>Test Description: Delete team from Grafana</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "startSession",
+    "time" : {
+      "start" : 1581068063281,
+      "stop" : 1581068067697,
+      "duration" : 4416
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "closeSession",
+    "time" : {
+      "start" : 1581068071190,
+      "stop" : 1581068071193,
+      "duration" : 3
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "afterMethod",
+    "time" : {
+      "start" : 1581068071183,
+      "stop" : 1581068071183,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "SanityTests.grafanaAPI"
+  }, {
+    "name" : "testClass",
+    "value" : "SanityTests.grafanaAPI"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test03_deleteTeam"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "suite",
+    "value" : "API Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "SanityTests.grafanaAPI"
+  }, {
+    "name" : "host",
+    "value" : "IL-DOMER-W"
+  }, {
+    "name" : "thread",
+    "value" : "22752@IL-DOMER-W.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "PlatformName",
+    "value" : "api"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "4f4d8f27a3674cf9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580592563548,
+        "stop" : 1580592563651,
+        "duration" : 103
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 10,
+        "unknown" : 0,
+        "total" : 10
+      },
+      "items" : [ {
+        "uid" : "e4b113616243564a",
+        "reportUrl" : "http://localhost:9090/job/Project%20Full%20Stack%20Final%20Project%20Web/9/allure/#testresult/e4b113616243564a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1581068070962,
+          "stop" : 1581068071177,
+          "duration" : 215
+        }
+      }, {
+        "uid" : "a08e1de3b41874b9",
+        "reportUrl" : "http://localhost:9090/job/Project%20Full%20Stack%20Final%20Project%20Web/8/allure/#testresult/a08e1de3b41874b9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1581068070962,
+          "stop" : 1581068071177,
+          "duration" : 215
+        }
+      }, {
+        "uid" : "d8f26a9bc2da6150",
+        "reportUrl" : "http://localhost:9090/job/Project%20Full%20Stack%20Final%20Project%20Web/7/allure/#testresult/d8f26a9bc2da6150",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580592563548,
+          "stop" : 1580592563651,
+          "duration" : 103
+        }
+      }, {
+        "uid" : "8818819fe3344395",
+        "reportUrl" : "http://localhost:9090/job/Project%20Full%20Stack%20Final%20Project%20Web/6/allure/#testresult/8818819fe3344395",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580592563548,
+          "stop" : 1580592563651,
+          "duration" : 103
+        }
+      }, {
+        "uid" : "e9221bfdce0ad8",
+        "reportUrl" : "http://localhost:9090/job/Project%20Full%20Stack%20Final%20Project%20Web/5/allure/#testresult/e9221bfdce0ad8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580592563548,
+          "stop" : 1580592563651,
+          "duration" : 103
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "63ed8610df04b86b.json",
+  "parameterValues" : [ "api" ]
+}

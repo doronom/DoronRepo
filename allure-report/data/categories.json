@@ -1,0 +1,129 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "io.appium.java_client.windows.WindowsDriver.updateDefaultPlatformName(Lorg/openqa/selenium/Capabilities;Ljava/lang/String;)Lorg/openqa/selenium/Capabilities;",
+      "children" : [ {
+        "name" : "startSession",
+        "uid" : "7ad97e0436a4f4a1",
+        "parentUid" : "9f8a4737b5aabfdda8b2891ce121c073",
+        "status" : "broken",
+        "time" : {
+          "start" : 1580668315368,
+          "stop" : 1580668315371,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "desktop" ]
+      } ],
+      "uid" : "9f8a4737b5aabfdda8b2891ce121c073"
+    }, {
+      "name" : "\nParameter 'PlatformName' is required by BeforeClass on method startSession but has not been marked @Optional or defined\nin C:\\Users\\DOmer\\.IdeaIC2019.3\\system\\temp-testng-customsuite.xml",
+      "children" : [ {
+        "name" : "startSession",
+        "uid" : "269cbf175de52b57",
+        "parentUid" : "1ac223485ad9b9470098e2ad76191e0f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1580824590404,
+          "stop" : 1580824590425,
+          "duration" : 21
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "startSession",
+        "uid" : "960e868df2fd5507",
+        "parentUid" : "1ac223485ad9b9470098e2ad76191e0f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1580831328237,
+          "stop" : 1580831328241,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "startSession",
+        "uid" : "88168ec8f62a36aa",
+        "parentUid" : "1ac223485ad9b9470098e2ad76191e0f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1580842739892,
+          "stop" : 1580842739895,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "startSession",
+        "uid" : "175e32d16a083fa4",
+        "parentUid" : "1ac223485ad9b9470098e2ad76191e0f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1581022205906,
+          "stop" : 1581022205909,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1ac223485ad9b9470098e2ad76191e0f"
+    }, {
+      "name" : "java.lang.NullPointerException",
+      "children" : [ {
+        "name" : "startSession",
+        "uid" : "258de2e31d9eb2dc",
+        "parentUid" : "5592898b36d684905e31486a23088bda",
+        "status" : "broken",
+        "time" : {
+          "start" : 1581022067940,
+          "stop" : 1581022067942,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "mobile" ]
+      }, {
+        "name" : "closeSession",
+        "uid" : "77a43cb5bd22b7a",
+        "parentUid" : "5592898b36d684905e31486a23088bda",
+        "status" : "broken",
+        "time" : {
+          "start" : 1581067093742,
+          "stop" : 1581067093743,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "db" ]
+      } ],
+      "uid" : "5592898b36d684905e31486a23088bda"
+    }, {
+      "name" : "unknown error: session deleted because of page crash\nfrom unknown error: cannot determine loading status\nfrom tab crashed\n  (Session info: chrome=79.0.3945.130)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'IL-DOMER-W', ip: '192.168.10.115', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\\Users\\DOmer\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:65266}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 3eb50a63e63e6ef9f95f276ea56c9b43",
+      "children" : [ {
+        "name" : "startSession",
+        "uid" : "fa369931ea1738aa",
+        "parentUid" : "7582779c9a553393ec73cda183aee9c5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1581067346731,
+          "stop" : 1581067346735,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "db" ]
+      } ],
+      "uid" : "7582779c9a553393ec73cda183aee9c5"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

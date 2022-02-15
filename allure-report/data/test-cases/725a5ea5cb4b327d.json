@@ -1,0 +1,113 @@
+{
+  "uid" : "725a5ea5cb4b327d",
+  "name" : "Test 03: Verify Build desktop PC basic price",
+  "fullName" : "SanityTests.NopCommerceWeb.Test03_verifyDesktopPrice",
+  "historyId" : "9ce819990563b038239411b77c69256a",
+  "time" : {
+    "start" : 1581017683592,
+    "stop" : 1581017688197,
+    "duration" : 4605
+  },
+  "description" : "Test Description: Filter in desktop page and verify basic price for build your own PC",
+  "descriptionHtml" : "<p>Test Description: Filter in desktop page and verify basic price for build your own PC</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "startSession",
+    "time" : {
+      "start" : 1581017666865,
+      "stop" : 1581017683497,
+      "duration" : 16632
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "closeSession",
+    "time" : {
+      "start" : 1581017690105,
+      "stop" : 1581017690884,
+      "duration" : 779
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "afterMethod",
+    "time" : {
+      "start" : 1581017688384,
+      "stop" : 1581017690081,
+      "duration" : 1697
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "SanityTests.NopCommerceWeb"
+  }, {
+    "name" : "testClass",
+    "value" : "SanityTests.NopCommerceWeb"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test03_verifyDesktopPrice"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Web Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "SanityTests.NopCommerceWeb"
+  }, {
+    "name" : "host",
+    "value" : "IL-DOMER-W"
+  }, {
+    "name" : "thread",
+    "value" : "25632@IL-DOMER-W.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "PlatformName",
+    "value" : "web"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "725a5ea5cb4b327d.json",
+  "parameterValues" : [ "web" ]
+}

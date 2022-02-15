@@ -1,0 +1,250 @@
+{
+  "uid" : "113a399c7507e884",
+  "name" : "Test 02: Verify mortgage interest only",
+  "fullName" : "SanityTests.mortgageMobile.Test02_verifyInterest",
+  "historyId" : "429af52594d8680742794967493a0234",
+  "time" : {
+    "start" : 1580658149935,
+    "stop" : 1580658155528,
+    "duration" : 5593
+  },
+  "description" : "Test Description: fill the form fields and get mortgage interest",
+  "descriptionHtml" : "<p>Test Description: fill the form fields and get mortgage interest</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "startSession",
+    "time" : {
+      "start" : 1580658128541,
+      "stop" : 1580658145082,
+      "duration" : 16541
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "Test Description: fill the form fields and get mortgage interest",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Fill-in mortgage form and calculate repayment",
+      "time" : {
+        "start" : 1580658149935,
+        "stop" : 1580658154499,
+        "duration" : 4564
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Send data to text field ",
+        "time" : {
+          "start" : 1580658150234,
+          "stop" : 1580658150770,
+          "duration" : 536
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elm",
+          "value" : "[[RemoteWebDriver:  on ANDROID (89a7cde6-165c-464e-bfe9-98473aa37bda)] -> xpath: //*[@id='etAmount']]"
+        }, {
+          "name" : "value",
+          "value" : "10000"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 0
+      }, {
+        "name" : "Send data to text field ",
+        "time" : {
+          "start" : 1580658151372,
+          "stop" : 1580658152113,
+          "duration" : 741
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elm",
+          "value" : "[[RemoteWebDriver:  on ANDROID (89a7cde6-165c-464e-bfe9-98473aa37bda)] -> xpath: //*[@id='etTerm']]"
+        }, {
+          "name" : "value",
+          "value" : "3"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 0
+      }, {
+        "name" : "Send data to text field ",
+        "time" : {
+          "start" : 1580658153138,
+          "stop" : 1580658153635,
+          "duration" : 497
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elm",
+          "value" : "[[RemoteWebDriver:  on ANDROID (89a7cde6-165c-464e-bfe9-98473aa37bda)] -> xpath: //*[@id='etRate']]"
+        }, {
+          "name" : "value",
+          "value" : "4"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 0
+      }, {
+        "name" : "Click on element",
+        "time" : {
+          "start" : 1580658154144,
+          "stop" : 1580658154499,
+          "duration" : 355
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elm",
+          "value" : "[[RemoteWebDriver:  on ANDROID (89a7cde6-165c-464e-bfe9-98473aa37bda)] -> xpath: //*[@text='Calculate']]"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "amount",
+        "value" : "10000"
+      }, {
+        "name" : "term",
+        "value" : "3"
+      }, {
+        "name" : "rate",
+        "value" : "4"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 4
+    }, {
+      "name" : "Verify text in element",
+      "time" : {
+        "start" : 1580658155188,
+        "stop" : 1580658155528,
+        "duration" : 340
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "elm",
+        "value" : "[[RemoteWebDriver:  on ANDROID (89a7cde6-165c-464e-bfe9-98473aa37bda)] -> id: tvInterestOnly]"
+      }, {
+        "name" : "expValue",
+        "value" : "£33.33"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 6
+  },
+  "afterStages" : [ {
+    "name" : "closeSession",
+    "time" : {
+      "start" : 1580658155538,
+      "stop" : 1580658158927,
+      "duration" : 3389
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "afterMethod",
+    "time" : {
+      "start" : 1580658155534,
+      "stop" : 1580658155534,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "SanityTests.mortgageMobile"
+  }, {
+    "name" : "testClass",
+    "value" : "SanityTests.mortgageMobile"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test02_verifyInterest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Mobile Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "SanityTests.mortgageMobile"
+  }, {
+    "name" : "host",
+    "value" : "IL-DOMER-W"
+  }, {
+    "name" : "thread",
+    "value" : "19200@IL-DOMER-W.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "PlatformName",
+    "value" : "mobile"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "113a399c7507e884.json",
+  "parameterValues" : [ "mobile" ]
+}

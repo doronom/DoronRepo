@@ -1,0 +1,38 @@
+# Created at 2020-02-07T11:22:24.203
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created at 2020-02-07T11:22:25.029
+Unexpected IOException with stream: Feb 07, 2020 11:22:25 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+
+
+# Created at 2020-02-07T11:22:27.096
+Unexpected IOException: 8,1,SanityTests.GrafanaWebDB,startSession(SanityTests.GrafanaWebDB),null,unknown error: session deleted because of page crash\000Afrom unknown error: cannot determine loading status\000Afrom tab crashed\000A  (Session info: chrome=79.0.3945.130)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'IL-DOMER-W'\002C ip: '192.168.10.115'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_211'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 79.0.3945.130\002C chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389...\002C userDataDir: C:\005CUsers\005CDOmer\005CAppData\005CLoca...}\002C goog:chromeOptions: {debuggerAddress: localhost:65266}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 3eb50a63e63e6ef9f95f276ea56c9b43,null,unknown error: session deleted because of page crash\000Afrom unknown error: cannot determine loading status\000Afrom tab crashed\000A  (Session info: chrome=79.0.3945.130)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'IL-DOMER-W'\002C ip: '192.168.10.115'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_211'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 79.0.3945.130\002C chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389...\002C userDataDir: C:\005CUsers\005CDOmer\005CAppData\005CLoca...}\002C goog:chromeOptions: {debuggerAddress: localhost:65266}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 3eb50a63e63e6ef9f95f276ea56c9b43,GrafanaWebDB>CommonOps.startSession:156->CommonOps.initGrafana4DB:134 \00BB WebDriver,org.openqa.selenium.WebDriverException: \000Aunknown error: session deleted because of page crash\000Afrom unknown error: cannot determine loading status\000Afrom tab crashed\000A  (Session info: chrome=79.0.3945.130)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'IL-DOMER-W'\002C ip: '192.168.10.115'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_211'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 79.0.3945.130\002C chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389...\002C userDataDir: C:\005CUsers\005CDOmer\005CAppData\005CLoca...}\002C goog:chromeOptions: {debuggerAddress: localhost:65266}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 3eb50a63e63e6ef9f95f276ea56c9b43\000A
+
+
+# Created at 2020-02-07T11:22:27.123
+Unexpected IOException with stream: Test Test01_getAdditionis Skipping! 
+
+
+# Created at 2020-02-07T11:22:27.126
+Unexpected IOException: 9,1,SanityTests.GrafanaWebDB,Test01_getAddition(SanityTests.GrafanaWebDB),null,unknown error: session deleted because of page crash\000Afrom unknown error: cannot determine loading status\000Afrom tab crashed\000A  (Session info: chrome=79.0.3945.130)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'IL-DOMER-W'\002C ip: '192.168.10.115'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_211'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 79.0.3945.130\002C chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389...\002C userDataDir: C:\005CUsers\005CDOmer\005CAppData\005CLoca...}\002C goog:chromeOptions: {debuggerAddress: localhost:65266}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 3eb50a63e63e6ef9f95f276ea56c9b43,null
+
+
+# Created at 2020-02-07T11:22:27.148
+Unexpected IOException: 9,1,SanityTests.GrafanaWebDB,afterMethod(SanityTests.GrafanaWebDB),null,null,null
+
+
+# Created at 2020-02-07T11:22:27.152
+Unexpected IOException: 9,1,SanityTests.GrafanaWebDB,closeSession(SanityTests.GrafanaWebDB),null,null,null
+
+
+# Created at 2020-02-07T11:22:27.165
+Unexpected IOException with stream: Test DB To Web TestsCompleted! 
+
+

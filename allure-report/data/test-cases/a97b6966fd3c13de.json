@@ -1,0 +1,440 @@
+{
+  "uid" : "a97b6966fd3c13de",
+  "name" : "Test 03: Verify Build desktop PC basic price",
+  "fullName" : "SanityTests.NopCommerceWeb.Test03_verifyDesktopPrice",
+  "historyId" : "9ce819990563b038239411b77c69256a",
+  "time" : {
+    "start" : 1581076491103,
+    "stop" : 1581076495999,
+    "duration" : 4896
+  },
+  "description" : "Test Description: Filter in desktop page and verify basic price for build your own PC",
+  "descriptionHtml" : "<p>Test Description: Filter in desktop page and verify basic price for build your own PC</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "startSession",
+    "time" : {
+      "start" : 1581076471432,
+      "stop" : 1581076482434,
+      "duration" : 11002
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "Test Description: Filter in desktop page and verify basic price for build your own PC",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Filter from desktops PC",
+      "time" : {
+        "start" : 1581076491104,
+        "stop" : 1581076495787,
+        "duration" : 4683
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Mouse hover from element to element action",
+        "time" : {
+          "start" : 1581076491168,
+          "stop" : 1581076492459,
+          "duration" : 1291
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elm1",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (225d73a1171f54381f9996cb47176c7d)] -> xpath: //*[@href='/computers']]"
+        }, {
+          "name" : "elm2",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (225d73a1171f54381f9996cb47176c7d)] -> xpath: //a[@href='/desktops']]"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 0
+      }, {
+        "name" : "Select from drop-down list by value",
+        "time" : {
+          "start" : 1581076492502,
+          "stop" : 1581076493924,
+          "duration" : 1422
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elm",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (225d73a1171f54381f9996cb47176c7d)] -> id: products-orderby]"
+        }, {
+          "name" : "value",
+          "value" : "Name: A to Z"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 0
+      }, {
+        "name" : "Select from drop-down list by value",
+        "time" : {
+          "start" : 1581076493967,
+          "stop" : 1581076495787,
+          "duration" : 1820
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elm",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (225d73a1171f54381f9996cb47176c7d)] -> id: products-pagesize]"
+        }, {
+          "name" : "value",
+          "value" : "3"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "value",
+        "value" : "Name: A to Z"
+      }, {
+        "name" : "value1",
+        "value" : "3"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 3
+    }, {
+      "name" : "Verify text in element",
+      "time" : {
+        "start" : 1581076495835,
+        "stop" : 1581076495998,
+        "duration" : 163
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "elm",
+        "value" : "[[ChromeDriver: chrome on WINDOWS (225d73a1171f54381f9996cb47176c7d)] -> xpath: //span[@class='price actual-price']]"
+      }, {
+        "name" : "expValue",
+        "value" : "$1,200.00"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 5
+  },
+  "afterStages" : [ {
+    "name" : "closeSession",
+    "time" : {
+      "start" : 1581076521772,
+      "stop" : 1581076522636,
+      "duration" : 864
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "afterMethod",
+    "time" : {
+      "start" : 1581076496014,
+      "stop" : 1581076496932,
+      "duration" : 918
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "SanityTests.NopCommerceWeb"
+  }, {
+    "name" : "testClass",
+    "value" : "SanityTests.NopCommerceWeb"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test03_verifyDesktopPrice"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Web Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "SanityTests.NopCommerceWeb"
+  }, {
+    "name" : "host",
+    "value" : "IL-DOMER-W"
+  }, {
+    "name" : "thread",
+    "value" : "15464@IL-DOMER-W.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "PlatformName",
+    "value" : "web"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "c18a3eb3ac5ec0a6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1581075856570,
+        "stop" : 1581075860679,
+        "duration" : 4109
+      }
+    }, {
+      "uid" : "d7170638ded72beb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1581069339554,
+        "stop" : 1581069344238,
+        "duration" : 4684
+      }
+    }, {
+      "uid" : "9d958393cf250fcd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1581068984955,
+        "stop" : 1581068990389,
+        "duration" : 5434
+      }
+    }, {
+      "uid" : "4a58e88966e0a36c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1581068832211,
+        "stop" : 1581068836565,
+        "duration" : 4354
+      }
+    }, {
+      "uid" : "429a530b87a232bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1581017807553,
+        "stop" : 1581017812896,
+        "duration" : 5343
+      }
+    }, {
+      "uid" : "2f9f4c3d962b7ee",
+      "status" : "passed",
+      "time" : {
+        "start" : 1581017731832,
+        "stop" : 1581017737778,
+        "duration" : 5946
+      }
+    }, {
+      "uid" : "725a5ea5cb4b327d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1581017683592,
+        "stop" : 1581017688197,
+        "duration" : 4605
+      }
+    }, {
+      "uid" : "66e17a7492925d73",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element ([[ChromeDriver: chrome on WINDOWS (73f9a3b83fe5b82dd96a9fa3ab677854)] -> xpath: /html/body/div[6]/div[2]/ul[1]/li[1]/ul/li[1]/a]) to be selected (tried for 5 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'IL-DOMER-W', ip: '192.168.10.115', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\\Users\\DOmer\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51195}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 73f9a3b83fe5b82dd96a9fa3ab677854",
+      "time" : {
+        "start" : 1580964003792,
+        "stop" : 1580964013626,
+        "duration" : 9834
+      }
+    }, {
+      "uid" : "5026bb6d7f2aef16",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580841475805,
+        "stop" : 1580841478039,
+        "duration" : 2234
+      }
+    }, {
+      "uid" : "25be86bd7a28b646",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580841336473,
+        "stop" : 1580841339730,
+        "duration" : 3257
+      }
+    }, {
+      "uid" : "da635da0d5c603f3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580837476080,
+        "stop" : 1580837481530,
+        "duration" : 5450
+      }
+    }, {
+      "uid" : "bd70a8308f2ba311",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580836826449,
+        "stop" : 1580836830934,
+        "duration" : 4485
+      }
+    }, {
+      "uid" : "1dae081011c10572",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580826570434,
+        "stop" : 1580826573717,
+        "duration" : 3283
+      }
+    }, {
+      "uid" : "cd687491f6bbaf07",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580824735290,
+        "stop" : 1580824738541,
+        "duration" : 3251
+      }
+    }, {
+      "uid" : "164061e3082724e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580651963321,
+        "stop" : 1580651966421,
+        "duration" : 3100
+      }
+    }, {
+      "uid" : "27507b37c2e74350",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580633984103,
+        "stop" : 1580633986546,
+        "duration" : 2443
+      }
+    }, {
+      "uid" : "df9c7128321fc03f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580629582342,
+        "stop" : 1580629586213,
+        "duration" : 3871
+      }
+    }, {
+      "uid" : "e61161efe84c57aa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580593225300,
+        "stop" : 1580593227673,
+        "duration" : 2373
+      }
+    }, {
+      "uid" : "c007dea6b542e46d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580592879360,
+        "stop" : 1580592882461,
+        "duration" : 3101
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 10,
+        "unknown" : 0,
+        "total" : 10
+      },
+      "items" : [ {
+        "uid" : "3627a0c8df426046",
+        "reportUrl" : "http://localhost:9090/job/Project%20Full%20Stack%20Final%20Project%20Web/9/allure/#testresult/3627a0c8df426046",
+        "status" : "passed",
+        "time" : {
+          "start" : 1581075856570,
+          "stop" : 1581075860679,
+          "duration" : 4109
+        }
+      }, {
+        "uid" : "2e713bccf0d445fd",
+        "reportUrl" : "http://localhost:9090/job/Project%20Full%20Stack%20Final%20Project%20Web/8/allure/#testresult/2e713bccf0d445fd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1581068832211,
+          "stop" : 1581068836565,
+          "duration" : 4354
+        }
+      }, {
+        "uid" : "ab743ef0ca9f74c9",
+        "reportUrl" : "http://localhost:9090/job/Project%20Full%20Stack%20Final%20Project%20Web/7/allure/#testresult/ab743ef0ca9f74c9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580826570434,
+          "stop" : 1580826573717,
+          "duration" : 3283
+        }
+      }, {
+        "uid" : "5eb852c9ca6bb0c9",
+        "reportUrl" : "http://localhost:9090/job/Project%20Full%20Stack%20Final%20Project%20Web/6/allure/#testresult/5eb852c9ca6bb0c9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580824735290,
+          "stop" : 1580824738541,
+          "duration" : 3251
+        }
+      }, {
+        "uid" : "90ddc26d2f93b7c0",
+        "reportUrl" : "http://localhost:9090/job/Project%20Full%20Stack%20Final%20Project%20Web/5/allure/#testresult/90ddc26d2f93b7c0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580651963321,
+          "stop" : 1580651966421,
+          "duration" : 3100
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "a97b6966fd3c13de.json",
+  "parameterValues" : [ "web" ]
+}

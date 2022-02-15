@@ -1,0 +1,113 @@
+{
+  "uid" : "6a47256b7854891",
+  "name" : "Test 07: Compare nopCommerce main page icon",
+  "fullName" : "SanityTests.NopCommerceWeb.Test07_compareIcon",
+  "historyId" : "4ba98f5686f9e05f0b707ebb2abf61d3",
+  "time" : {
+    "start" : 1581069010049,
+    "stop" : 1581069016781,
+    "duration" : 6732
+  },
+  "description" : "Test Description: Verify that nopCommerce icon doesn't changed",
+  "descriptionHtml" : "<p>Test Description: Verify that nopCommerce icon doesn't changed</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "startSession",
+    "time" : {
+      "start" : 1581068962973,
+      "stop" : 1581068974236,
+      "duration" : 11263
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "closeSession",
+    "time" : {
+      "start" : 1581069017694,
+      "stop" : 1581069018556,
+      "duration" : 862
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "afterMethod",
+    "time" : {
+      "start" : 1581069016786,
+      "stop" : 1581069017680,
+      "duration" : 894
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "SanityTests.NopCommerceWeb"
+  }, {
+    "name" : "testClass",
+    "value" : "SanityTests.NopCommerceWeb"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test07_compareIcon"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Web Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "SanityTests.NopCommerceWeb"
+  }, {
+    "name" : "host",
+    "value" : "IL-DOMER-W"
+  }, {
+    "name" : "thread",
+    "value" : "11612@IL-DOMER-W.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "PlatformName",
+    "value" : "web"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6a47256b7854891.json",
+  "parameterValues" : [ "web" ]
+}

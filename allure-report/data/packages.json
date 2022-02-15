@@ -1,0 +1,514 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "SanityTests",
+    "children" : [ {
+      "name" : "CalculatorDesktop",
+      "children" : [ {
+        "name" : "startSession",
+        "uid" : "7ad97e0436a4f4a1",
+        "parentUid" : "a017eb3a4af09b0007bc9c8a66777a89",
+        "status" : "broken",
+        "time" : {
+          "start" : 1580668315368,
+          "stop" : 1580668315371,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "desktop" ]
+      }, {
+        "name" : "startSession",
+        "uid" : "960e868df2fd5507",
+        "parentUid" : "a017eb3a4af09b0007bc9c8a66777a89",
+        "status" : "broken",
+        "time" : {
+          "start" : 1580831328237,
+          "stop" : 1580831328241,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test01_getAddition",
+        "uid" : "b6a13057fbaaf00a",
+        "parentUid" : "a017eb3a4af09b0007bc9c8a66777a89",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1580831328448,
+          "stop" : 1580831328452,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test02_getSubtraction",
+        "uid" : "19eb6d636e789ed0",
+        "parentUid" : "a017eb3a4af09b0007bc9c8a66777a89",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1580831328474,
+          "stop" : 1580831328474,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test02_getDivision",
+        "uid" : "a55f8a37a0fd6006",
+        "parentUid" : "a017eb3a4af09b0007bc9c8a66777a89",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580896225371,
+          "stop" : 1580896228054,
+          "duration" : 2683
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "desktop" ]
+      }, {
+        "name" : "Test02_getMultiplication",
+        "uid" : "4bc1a33007c6148f",
+        "parentUid" : "a017eb3a4af09b0007bc9c8a66777a89",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580896228063,
+          "stop" : 1580896230164,
+          "duration" : 2101
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "desktop" ]
+      }, {
+        "name" : "Test01_getAddition",
+        "uid" : "cbd993fa57285c02",
+        "parentUid" : "a017eb3a4af09b0007bc9c8a66777a89",
+        "status" : "passed",
+        "time" : {
+          "start" : 1581068112050,
+          "stop" : 1581068128346,
+          "duration" : 16296
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "desktop" ]
+      }, {
+        "name" : "Test02_getSubtraction",
+        "uid" : "568ed3a100491c06",
+        "parentUid" : "a017eb3a4af09b0007bc9c8a66777a89",
+        "status" : "passed",
+        "time" : {
+          "start" : 1581068128549,
+          "stop" : 1581068145453,
+          "duration" : 16904
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "desktop" ]
+      }, {
+        "name" : "Test03_getMultiplication",
+        "uid" : "2af27c0f1ffb17bf",
+        "parentUid" : "a017eb3a4af09b0007bc9c8a66777a89",
+        "status" : "passed",
+        "time" : {
+          "start" : 1581068145506,
+          "stop" : 1581068159624,
+          "duration" : 14118
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "desktop" ]
+      }, {
+        "name" : "Test04_getDivision",
+        "uid" : "22dcdbcd44687b64",
+        "parentUid" : "a017eb3a4af09b0007bc9c8a66777a89",
+        "status" : "passed",
+        "time" : {
+          "start" : 1581068159639,
+          "stop" : 1581068178484,
+          "duration" : 18845
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "desktop" ]
+      } ],
+      "uid" : "a017eb3a4af09b0007bc9c8a66777a89"
+    }, {
+      "name" : "GrafanaWebDB",
+      "children" : [ {
+        "name" : "startSession",
+        "uid" : "269cbf175de52b57",
+        "parentUid" : "a378e2912068a29fd8f604af5f10aaec",
+        "status" : "broken",
+        "time" : {
+          "start" : 1580824590404,
+          "stop" : 1580824590425,
+          "duration" : 21
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test01_getAddition",
+        "uid" : "f09d705897b8f597",
+        "parentUid" : "a378e2912068a29fd8f604af5f10aaec",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1580824590910,
+          "stop" : 1580824590917,
+          "duration" : 7
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "closeSession",
+        "uid" : "77a43cb5bd22b7a",
+        "parentUid" : "a378e2912068a29fd8f604af5f10aaec",
+        "status" : "broken",
+        "time" : {
+          "start" : 1581067093742,
+          "stop" : 1581067093743,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "db" ]
+      }, {
+        "name" : "startSession",
+        "uid" : "fa369931ea1738aa",
+        "parentUid" : "a378e2912068a29fd8f604af5f10aaec",
+        "status" : "broken",
+        "time" : {
+          "start" : 1581067346731,
+          "stop" : 1581067346735,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "db" ]
+      }, {
+        "name" : "Test01_getAddition",
+        "uid" : "57d2147369d723d3",
+        "parentUid" : "a378e2912068a29fd8f604af5f10aaec",
+        "status" : "passed",
+        "time" : {
+          "start" : 1581067749124,
+          "stop" : 1581067753452,
+          "duration" : 4328
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "db" ]
+      }, {
+        "name" : "Test01_loginWithDBCredentials",
+        "uid" : "918ee133f9d9e2f0",
+        "parentUid" : "a378e2912068a29fd8f604af5f10aaec",
+        "status" : "passed",
+        "time" : {
+          "start" : 1581068659859,
+          "stop" : 1581068663409,
+          "duration" : 3550
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "db" ]
+      } ],
+      "uid" : "a378e2912068a29fd8f604af5f10aaec"
+    }, {
+      "name" : "NopCommerceWeb",
+      "children" : [ {
+        "name" : "Test07_compareIcon",
+        "uid" : "5acbfc6adec5d9b5",
+        "parentUid" : "62b0c955f1f658b284b9197801b0b0c2",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1580837185144,
+          "stop" : 1580837185147,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test01_login",
+        "uid" : "1a000647fa071336",
+        "parentUid" : "62b0c955f1f658b284b9197801b0b0c2",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1580842532381,
+          "stop" : 1580842532383,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "startSession",
+        "uid" : "88168ec8f62a36aa",
+        "parentUid" : "62b0c955f1f658b284b9197801b0b0c2",
+        "status" : "broken",
+        "time" : {
+          "start" : 1580842739892,
+          "stop" : 1580842739895,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test04_verifyPrice_buildPC",
+        "uid" : "f57deaf1fb894c6e",
+        "parentUid" : "62b0c955f1f658b284b9197801b0b0c2",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1580842739997,
+          "stop" : 1580842739999,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test01_login",
+        "uid" : "797474e3c1c387f6",
+        "parentUid" : "62b0c955f1f658b284b9197801b0b0c2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1581076482518,
+          "stop" : 1581076486121,
+          "duration" : 3603
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test02_desktopsHeader",
+        "uid" : "a187134160c15564",
+        "parentUid" : "62b0c955f1f658b284b9197801b0b0c2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1581076487908,
+          "stop" : 1581076489625,
+          "duration" : 1717
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test03_verifyDesktopPrice",
+        "uid" : "a97b6966fd3c13de",
+        "parentUid" : "62b0c955f1f658b284b9197801b0b0c2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1581076491103,
+          "stop" : 1581076495999,
+          "duration" : 4896
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test04_verifyPrice_buildPC",
+        "uid" : "5200b3692431a550",
+        "parentUid" : "62b0c955f1f658b284b9197801b0b0c2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1581076496944,
+          "stop" : 1581076502575,
+          "duration" : 5631
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test05_verifyDigitalStormPCPrice",
+        "uid" : "3ee0d8b7c34fbcad",
+        "parentUid" : "62b0c955f1f658b284b9197801b0b0c2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1581076503389,
+          "stop" : 1581076507359,
+          "duration" : 3970
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test06_verifyAllInOneRating",
+        "uid" : "771812f45af2733f",
+        "parentUid" : "62b0c955f1f658b284b9197801b0b0c2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1581076508232,
+          "stop" : 1581076512831,
+          "duration" : 4599
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test07_compareIcon",
+        "uid" : "93a7c3f39b374a50",
+        "parentUid" : "62b0c955f1f658b284b9197801b0b0c2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1581076513758,
+          "stop" : 1581076520625,
+          "duration" : 6867
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      } ],
+      "uid" : "62b0c955f1f658b284b9197801b0b0c2"
+    }, {
+      "name" : "mortgageMobile",
+      "children" : [ {
+        "name" : "startSession",
+        "uid" : "258de2e31d9eb2dc",
+        "parentUid" : "e80d1f69c1016eaf1efa9793ad93716f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1581022067940,
+          "stop" : 1581022067942,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "mobile" ]
+      }, {
+        "name" : "startSession",
+        "uid" : "175e32d16a083fa4",
+        "parentUid" : "e80d1f69c1016eaf1efa9793ad93716f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1581022205906,
+          "stop" : 1581022205909,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test01_verifyRepayment",
+        "uid" : "2ddd6678747ddf4",
+        "parentUid" : "e80d1f69c1016eaf1efa9793ad93716f",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1581022206007,
+          "stop" : 1581022206009,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test02_verifyInterest",
+        "uid" : "701af679524680a2",
+        "parentUid" : "e80d1f69c1016eaf1efa9793ad93716f",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1581022206018,
+          "stop" : 1581022206018,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test01_verifyRepayment",
+        "uid" : "58859f73b2dcbdd7",
+        "parentUid" : "e80d1f69c1016eaf1efa9793ad93716f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1581022421395,
+          "stop" : 1581022426160,
+          "duration" : 4765
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "mobile" ]
+      }, {
+        "name" : "Test02_verifyInterest",
+        "uid" : "facdb89253e5d43d",
+        "parentUid" : "e80d1f69c1016eaf1efa9793ad93716f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1581022426285,
+          "stop" : 1581022430830,
+          "duration" : 4545
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "mobile" ]
+      } ],
+      "uid" : "e80d1f69c1016eaf1efa9793ad93716f"
+    }, {
+      "name" : "grafanaAPI",
+      "children" : [ {
+        "name" : "Test01_postTeam",
+        "uid" : "8a39c7b00d956de3",
+        "parentUid" : "21a5b1c1266292cb5f58fee372b7419b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1581068067922,
+          "stop" : 1581068070489,
+          "duration" : 2567
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "api" ]
+      }, {
+        "name" : "Test02_updateTeam",
+        "uid" : "59e37c389c4e7dbb",
+        "parentUid" : "21a5b1c1266292cb5f58fee372b7419b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1581068070690,
+          "stop" : 1581068070944,
+          "duration" : 254
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "api" ]
+      }, {
+        "name" : "Test03_deleteTeam",
+        "uid" : "63ed8610df04b86b",
+        "parentUid" : "21a5b1c1266292cb5f58fee372b7419b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1581068070962,
+          "stop" : 1581068071177,
+          "duration" : 215
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "api" ]
+      } ],
+      "uid" : "21a5b1c1266292cb5f58fee372b7419b"
+    }, {
+      "name" : "electronDemo",
+      "children" : [ {
+        "name" : "Test01_getScreenInfo",
+        "uid" : "bfcefb3a95e4c11",
+        "parentUid" : "d8fc0dd4397f44c7b71a4b95a6e265a6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1581069060798,
+          "stop" : 1581069062336,
+          "duration" : 1538
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "electron" ]
+      } ],
+      "uid" : "d8fc0dd4397f44c7b71a4b95a6e265a6"
+    } ],
+    "uid" : "e062ce92619bf6813c57937db86cc3fd"
+  } ]
+}

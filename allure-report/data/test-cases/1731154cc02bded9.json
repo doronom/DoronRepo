@@ -1,0 +1,113 @@
+{
+  "uid" : "1731154cc02bded9",
+  "name" : "Test 01: Verify mortgage",
+  "fullName" : "SanityTests.mortgageMobile.Test01_verifyRepayment",
+  "historyId" : "e1a41ef7e81b04233fc431f4503b4d",
+  "time" : {
+    "start" : 1581022362713,
+    "stop" : 1581022367576,
+    "duration" : 4863
+  },
+  "description" : "Test Description: fill the form fields and calculate repayment",
+  "descriptionHtml" : "<p>Test Description: fill the form fields and calculate repayment</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "startSession",
+    "time" : {
+      "start" : 1581022347082,
+      "stop" : 1581022362685,
+      "duration" : 15603
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "afterMethod",
+    "time" : {
+      "start" : 1581022367632,
+      "stop" : 1581022367632,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "closeSession",
+    "time" : {
+      "start" : 1581022371658,
+      "stop" : 1581022374829,
+      "duration" : 3171
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "SanityTests.mortgageMobile"
+  }, {
+    "name" : "testClass",
+    "value" : "SanityTests.mortgageMobile"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test01_verifyRepayment"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Mobile Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "SanityTests.mortgageMobile"
+  }, {
+    "name" : "host",
+    "value" : "IL-DOMER-W"
+  }, {
+    "name" : "thread",
+    "value" : "25424@IL-DOMER-W.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "PlatformName",
+    "value" : "mobile"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1731154cc02bded9.json",
+  "parameterValues" : [ "mobile" ]
+}

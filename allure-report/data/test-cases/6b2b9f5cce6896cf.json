@@ -1,0 +1,113 @@
+{
+  "uid" : "6b2b9f5cce6896cf",
+  "name" : "Test 01: Login to Grafana with DB",
+  "fullName" : "SanityTests.GrafanaWebDB.Test01_loginWithDBCredentials",
+  "historyId" : "693266f8b195786a0b485285ebb484fe",
+  "time" : {
+    "start" : 1581067880915,
+    "stop" : 1581067884058,
+    "duration" : 3143
+  },
+  "description" : "Test Description: Login to Grafana with DB credentials",
+  "descriptionHtml" : "<p>Test Description: Login to Grafana with DB credentials</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "startSession",
+    "time" : {
+      "start" : 1581067871407,
+      "stop" : 1581067880833,
+      "duration" : 9426
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "afterMethod",
+    "time" : {
+      "start" : 1581067884214,
+      "stop" : 1581067884215,
+      "duration" : 1
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "closeSession",
+    "time" : {
+      "start" : 1581067884235,
+      "stop" : 1581067885590,
+      "duration" : 1355
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "SanityTests.GrafanaWebDB"
+  }, {
+    "name" : "testClass",
+    "value" : "SanityTests.GrafanaWebDB"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test01_loginWithDBCredentials"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "suite",
+    "value" : "DB To Web Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "SanityTests.GrafanaWebDB"
+  }, {
+    "name" : "host",
+    "value" : "IL-DOMER-W"
+  }, {
+    "name" : "thread",
+    "value" : "452@IL-DOMER-W.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "PlatformName",
+    "value" : "db"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6b2b9f5cce6896cf.json",
+  "parameterValues" : [ "db" ]
+}

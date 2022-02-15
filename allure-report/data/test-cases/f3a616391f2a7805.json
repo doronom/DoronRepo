@@ -1,0 +1,256 @@
+{
+  "uid" : "f3a616391f2a7805",
+  "name" : "Test 01: Login to Grafana with DB",
+  "fullName" : "SanityTests.GrafanaWebDB.Test01_getAddition",
+  "historyId" : "4c4b5e83db65ce2c15434f727e0c9cdf",
+  "time" : {
+    "start" : 1581067411353,
+    "stop" : 1581067414563,
+    "duration" : 3210
+  },
+  "description" : "Test Description: Login to Grafana with DB credentials",
+  "descriptionHtml" : "<p>Test Description: Login to Grafana with DB credentials</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "startSession",
+    "time" : {
+      "start" : 1581067400493,
+      "stop" : 1581067411270,
+      "duration" : 10777
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "Test Description: Login to Grafana with DB credentials",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Login Grafana with DB credentials",
+      "time" : {
+        "start" : 1581067411495,
+        "stop" : 1581067414001,
+        "duration" : 2506
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Get customer details from DB",
+        "time" : {
+          "start" : 1581067411524,
+          "stop" : 1581067411660,
+          "duration" : 136
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "query",
+          "value" : "SELECT UserName, Password from Users WHERE ID = '2'"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 0
+      }, {
+        "name" : "Send data to text field ",
+        "time" : {
+          "start" : 1581067411722,
+          "stop" : 1581067411934,
+          "duration" : 212
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elm",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (26e6a72e5e917da093615aa0d1082d49)] -> xpath: //input[@name = 'user']]"
+        }, {
+          "name" : "value",
+          "value" : "admin"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 0
+      }, {
+        "name" : "Send data to text field ",
+        "time" : {
+          "start" : 1581067411961,
+          "stop" : 1581067412155,
+          "duration" : 194
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elm",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (26e6a72e5e917da093615aa0d1082d49)] -> xpath: //input[@name='password']]"
+        }, {
+          "name" : "value",
+          "value" : "admin"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 0
+      }, {
+        "name" : "Click on element",
+        "time" : {
+          "start" : 1581067412181,
+          "stop" : 1581067412382,
+          "duration" : 201
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elm",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (26e6a72e5e917da093615aa0d1082d49)] -> xpath: //*[@class = 'btn btn-large p-x-2 btn-primary']]"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 0
+      }, {
+        "name" : "Click on element",
+        "time" : {
+          "start" : 1581067412484,
+          "stop" : 1581067414001,
+          "duration" : 1517
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elm",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (26e6a72e5e917da093615aa0d1082d49)] -> xpath: //a[@class = 'btn btn-link']]"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 5
+    }, {
+      "name" : "Verify text in element",
+      "time" : {
+        "start" : 1581067414436,
+        "stop" : 1581067414560,
+        "duration" : 124
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "elm",
+        "value" : "[[ChromeDriver: chrome on WINDOWS (26e6a72e5e917da093615aa0d1082d49)] -> xpath: //div[@class = 'text-center dashboard-header']/span]"
+      }, {
+        "name" : "expValue",
+        "value" : "Home Dashboard"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 7
+  },
+  "afterStages" : [ {
+    "name" : "afterMethod",
+    "time" : {
+      "start" : 1581067414837,
+      "stop" : 1581067414837,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "closeSession",
+    "time" : {
+      "start" : 1581067414855,
+      "stop" : 1581067415883,
+      "duration" : 1028
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "SanityTests.GrafanaWebDB"
+  }, {
+    "name" : "testClass",
+    "value" : "SanityTests.GrafanaWebDB"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test01_getAddition"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "suite",
+    "value" : "DB To Web Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "SanityTests.GrafanaWebDB"
+  }, {
+    "name" : "host",
+    "value" : "IL-DOMER-W"
+  }, {
+    "name" : "thread",
+    "value" : "21328@IL-DOMER-W.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "PlatformName",
+    "value" : "db"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f3a616391f2a7805.json",
+  "parameterValues" : [ "db" ]
+}

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Environment>
+    <!-- TimeOut -->
+    <TimeOut>5</TimeOut>
+    <Sleep>5000</Sleep>
+
+    <!-- Credentials -->
+    <user_web>domer@illusivenetworks.com</user_web>
+    <password_web>doronNopcom1234$</password_web>
+    <username_api>admin</username_api>
+    <password_api>admin</password_api>
+
+    <!-- Web -->
+    <BrowserName>Chrome</BrowserName>
+    <loginurl>https://demo.nopcommerce.com/login?returnUrl=%2F</loginurl>
+    <url>https://demo.nopcommerce.com/</url>
+    <ImageRepo>./ImageRepository/</ImageRepo>
+
+    <!-- Mobile -->
+    <UDID>94d897330804</UDID>
+    <APP_PACKAGE>com.shivgadhia.android.ukMortgageCalc</APP_PACKAGE>
+    <APP_ACTIVITY>.MainActivity</APP_ACTIVITY>
+    <AppiumPath>C:/Program Files (x86)/Experitest/AppiumStudio/AppiumStudio.exe</AppiumPath>
+
+    <!-- API -->
+    <url_api>http://localhost:3000</url_api>
+    <teamName>AutomationQA</teamName>
+    <teamEmail>automationQA@team889.com</teamEmail>
+    <updateTeamName>MyTeam</updateTeamName>
+
+    <!-- Electron -->
+    <electronDriverPath>./Drivers/electrondriver.exe</electronDriverPath>
+    <electronAppPath>C:/Automation/Electron API Demos/Electron API Demos.exe</electronAppPath>
+
+    <!-- Desktop -->
+    <calculatorApp>Microsoft.WindowsCalculator_8wekyb3d8bbwe!App</calculatorApp>
+    <appiumServer>http://127.0.0.1:4723</appiumServer>
+    <WinAppDriverPath>C:/Program Files (x86)/Windows Application Driver/WinAppDriver.exe</WinAppDriverPath>
+
+    <!-- DB -->
+    <dbURL>jdbc:mysql://remotemysql.com:3306/1Hn9wyWqvt</dbURL>
+    <dbUser>1Hn9wyWqvt</dbUser>
+    <dbPassword>EgR1S0fUhH</dbPassword>
+    <GrafaneServer>C:/Automation/grafana-6.5.3/bin/grafana-server.exe</GrafaneServer>
+</Environment>

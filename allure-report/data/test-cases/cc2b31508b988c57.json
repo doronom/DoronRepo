@@ -1,0 +1,226 @@
+{
+  "uid" : "cc2b31508b988c57",
+  "name" : "Test 01: Login to NopCommerce",
+  "fullName" : "SanityTests.NopCommerceWeb.Test01_login",
+  "historyId" : "42f4ef0300d2c720b1706948c83ba7be",
+  "time" : {
+    "start" : 1580824727278,
+    "stop" : 1580824731169,
+    "duration" : 3891
+  },
+  "description" : "Test Description: Login on NopCommerce web application",
+  "descriptionHtml" : "<p>Test Description: Login on NopCommerce web application</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "startSession",
+    "time" : {
+      "start" : 1580824718191,
+      "stop" : 1580824727222,
+      "duration" : 9031
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "Test Description: Login on NopCommerce web application",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Login NopCommerce flow",
+      "time" : {
+        "start" : 1580824727406,
+        "stop" : 1580824730952,
+        "duration" : 3546
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Send data to text field ",
+        "time" : {
+          "start" : 1580824727503,
+          "stop" : 1580824728008,
+          "duration" : 505
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elm",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (5b7c1672de498532f898ea3f4c513ee4)] -> xpath: //input[@class='email']]"
+        }, {
+          "name" : "value",
+          "value" : "domer@illusivenetworks.com"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 0
+      }, {
+        "name" : "Send data to text field ",
+        "time" : {
+          "start" : 1580824728036,
+          "stop" : 1580824728335,
+          "duration" : 299
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elm",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (5b7c1672de498532f898ea3f4c513ee4)] -> xpath: //input[@class='password']]"
+        }, {
+          "name" : "value",
+          "value" : "doronNopcom1234$"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 0
+      }, {
+        "name" : "Click on element",
+        "time" : {
+          "start" : 1580824728364,
+          "stop" : 1580824730952,
+          "duration" : 2588
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elm",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (5b7c1672de498532f898ea3f4c513ee4)] -> xpath: //input[@class='button-1 login-button']]"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "domer@illusivenetworks.com"
+      }, {
+        "name" : "pass",
+        "value" : "doronNopcom1234$"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 3
+    }, {
+      "name" : "Verify text in element",
+      "time" : {
+        "start" : 1580824731004,
+        "stop" : 1580824731164,
+        "duration" : 160
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "elm",
+        "value" : "[[ChromeDriver: chrome on WINDOWS (5b7c1672de498532f898ea3f4c513ee4)] -> xpath: //div[@class='topic-block-title']/h2]"
+      }, {
+        "name" : "expValue",
+        "value" : "Welcome to our store"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 5
+  },
+  "afterStages" : [ {
+    "name" : "afterMethod",
+    "time" : {
+      "start" : 1580824731464,
+      "stop" : 1580824732837,
+      "duration" : 1373
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "closeSession",
+    "time" : {
+      "start" : 1580824767428,
+      "stop" : 1580824768200,
+      "duration" : 772
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "SanityTests.NopCommerceWeb"
+  }, {
+    "name" : "testClass",
+    "value" : "SanityTests.NopCommerceWeb"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test01_login"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Web Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "SanityTests.NopCommerceWeb"
+  }, {
+    "name" : "host",
+    "value" : "IL-DOMER-W"
+  }, {
+    "name" : "thread",
+    "value" : "20732@IL-DOMER-W.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "PlatformName",
+    "value" : "web"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cc2b31508b988c57.json",
+  "parameterValues" : [ "web" ]
+}

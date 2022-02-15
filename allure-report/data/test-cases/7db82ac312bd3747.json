@@ -1,0 +1,113 @@
+{
+  "uid" : "7db82ac312bd3747",
+  "name" : "Test 02: Verify Subtraction calculation",
+  "fullName" : "SanityTests.CalculatorDesktop.Test02_getSubtraction",
+  "historyId" : "4777f69633f25750f66da199fefcfc63",
+  "time" : {
+    "start" : 1580896051647,
+    "stop" : 1580896054030,
+    "duration" : 2383
+  },
+  "description" : "Test Description: Get subtraction calculation and verify",
+  "descriptionHtml" : "<p>Test Description: Get subtraction calculation and verify</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "startSession",
+    "time" : {
+      "start" : 1580896046613,
+      "stop" : 1580896049037,
+      "duration" : 2424
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "closeSession",
+    "time" : {
+      "start" : 1580896054036,
+      "stop" : 1580896054067,
+      "duration" : 31
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "afterMethod",
+    "time" : {
+      "start" : 1580896054033,
+      "stop" : 1580896054033,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "SanityTests.CalculatorDesktop"
+  }, {
+    "name" : "testClass",
+    "value" : "SanityTests.CalculatorDesktop"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test02_getSubtraction"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Desktop App Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "SanityTests.CalculatorDesktop"
+  }, {
+    "name" : "host",
+    "value" : "IL-DOMER-W"
+  }, {
+    "name" : "thread",
+    "value" : "3464@IL-DOMER-W.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "PlatformName",
+    "value" : "desktop"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7db82ac312bd3747.json",
+  "parameterValues" : [ "desktop" ]
+}

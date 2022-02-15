@@ -1,0 +1,4278 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "IL-DOMER-W",
+    "children" : [ {
+      "name" : "6268@IL-DOMER-W.main(1)",
+      "children" : [ {
+        "name" : "Test 04: Build your own PC",
+        "uid" : "ad0d4e576876f6d0",
+        "parentUid" : "84678babfdba739531e93f3136aea21b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1580842556284,
+          "stop" : 1580842651814,
+          "duration" : 95530
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test 01: Login to NopCommerce",
+        "uid" : "891e3c012ace4dd7",
+        "parentUid" : "84678babfdba739531e93f3136aea21b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580842552632,
+          "stop" : 1580842555733,
+          "duration" : 3101
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      } ],
+      "uid" : "84678babfdba739531e93f3136aea21b"
+    }, {
+      "name" : "10548@IL-DOMER-W.main(1)",
+      "children" : [ {
+        "name" : "Test 01: Login to Grafana with DB",
+        "uid" : "3784efd16bfd9583",
+        "parentUid" : "f109ace9959052069b53c2444c83cc60",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1581067347131,
+          "stop" : 1581067347138,
+          "duration" : 7
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "db" ]
+      }, {
+        "name" : "startSession",
+        "uid" : "fa369931ea1738aa",
+        "parentUid" : "f109ace9959052069b53c2444c83cc60",
+        "status" : "broken",
+        "time" : {
+          "start" : 1581067346731,
+          "stop" : 1581067346735,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "db" ]
+      } ],
+      "uid" : "f109ace9959052069b53c2444c83cc60"
+    }, {
+      "name" : "11388@IL-DOMER-W.main(1)",
+      "children" : [ {
+        "name" : "Test 01: Verify Addition calculation",
+        "uid" : "8af56d37930723d8",
+        "parentUid" : "184606e56dd591e070b3a88e2464a58c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1580885271294,
+          "stop" : 1580885277433,
+          "duration" : 6139
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "desktop" ]
+      }, {
+        "name" : "Test 02: Verify Subtraction calculation",
+        "uid" : "ff4086f959bd0dee",
+        "parentUid" : "184606e56dd591e070b3a88e2464a58c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1580885277546,
+          "stop" : 1580885283587,
+          "duration" : 6041
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "desktop" ]
+      } ],
+      "uid" : "184606e56dd591e070b3a88e2464a58c"
+    }, {
+      "name" : "2916@IL-DOMER-W.main(1)",
+      "children" : [ {
+        "name" : "Test 04: Build your own PC",
+        "uid" : "374b8ab4f963c439",
+        "parentUid" : "183f34422065e272081393c689e1714e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1581068838347,
+          "stop" : 1581068845947,
+          "duration" : 7600
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test 07: Compare nopCommerce main page icon",
+        "uid" : "918d92964d979fbc",
+        "parentUid" : "183f34422065e272081393c689e1714e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1581068860086,
+          "stop" : 1581068866785,
+          "duration" : 6699
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test 05: Verify Digital storm model price",
+        "uid" : "e95c12502bdf08ba",
+        "parentUid" : "183f34422065e272081393c689e1714e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1581068846945,
+          "stop" : 1581068851884,
+          "duration" : 4939
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test 03: Verify Build desktop PC basic price",
+        "uid" : "4a58e88966e0a36c",
+        "parentUid" : "183f34422065e272081393c689e1714e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1581068832211,
+          "stop" : 1581068836565,
+          "duration" : 4354
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test 02: Verify desktop page header text",
+        "uid" : "d51261807bda0e36",
+        "parentUid" : "183f34422065e272081393c689e1714e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1581068828601,
+          "stop" : 1581068831146,
+          "duration" : 2545
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test 01: Login to NopCommerce",
+        "uid" : "92de82ec071612f3",
+        "parentUid" : "183f34422065e272081393c689e1714e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1581068822599,
+          "stop" : 1581068827244,
+          "duration" : 4645
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test 06: Verify All in one PC rating",
+        "uid" : "b6c70279fca650f1",
+        "parentUid" : "183f34422065e272081393c689e1714e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1581068853028,
+          "stop" : 1581068859274,
+          "duration" : 6246
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      } ],
+      "uid" : "183f34422065e272081393c689e1714e"
+    }, {
+      "name" : "23300@IL-DOMER-W.main(1)",
+      "children" : [ {
+        "name" : "Test 04: Build your own PC",
+        "uid" : "8e3265affc1e2816",
+        "parentUid" : "6e55cd2008babb8a3220745e21c7aa23",
+        "status" : "failed",
+        "time" : {
+          "start" : 1580963745758,
+          "stop" : 1580963760986,
+          "duration" : 15228
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      } ],
+      "uid" : "6e55cd2008babb8a3220745e21c7aa23"
+    }, {
+      "name" : "1876@IL-DOMER-W.main(1)",
+      "children" : [ {
+        "name" : "Test 06: Verify All in one PC rating",
+        "uid" : "28613952e1520624",
+        "parentUid" : "a58900363062e752e0e391033437ad39",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580592917887,
+          "stop" : 1580592920988,
+          "duration" : 3101
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test 02: Verify desktop page header text",
+        "uid" : "6b2963da6f9760a4",
+        "parentUid" : "a58900363062e752e0e391033437ad39",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580592876378,
+          "stop" : 1580592878063,
+          "duration" : 1685
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test 03: Verify Build desktop PC basic price",
+        "uid" : "c007dea6b542e46d",
+        "parentUid" : "a58900363062e752e0e391033437ad39",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580592879360,
+          "stop" : 1580592882461,
+          "duration" : 3101
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test 05: Verify Digital storm model price",
+        "uid" : "b43117d809faab38",
+        "parentUid" : "a58900363062e752e0e391033437ad39",
+        "status" : "broken",
+        "time" : {
+          "start" : 1580592900063,
+          "stop" : 1580592917324,
+          "duration" : 17261
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test 04: Build your own PC",
+        "uid" : "9422123fc39dd43c",
+        "parentUid" : "a58900363062e752e0e391033437ad39",
+        "status" : "broken",
+        "time" : {
+          "start" : 1580592882989,
+          "stop" : 1580592899480,
+          "duration" : 16491
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test 07: Compare nopCommerce main page icon",
+        "uid" : "281b40e00c308a72",
+        "parentUid" : "a58900363062e752e0e391033437ad39",
+        "status" : "broken",
+        "time" : {
+          "start" : 1580592921496,
+          "stop" : 1580592922551,
+          "duration" : 1055
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test 01: Login to NopCommerce",
+        "uid" : "272f104cba612efb",
+        "parentUid" : "a58900363062e752e0e391033437ad39",
+        "status" : "failed",
+        "time" : {
+          "start" : 1580592873837,
+          "stop" : 1580592875176,
+          "duration" : 1339
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      } ],
+      "uid" : "a58900363062e752e0e391033437ad39"
+    }, {
+      "name" : "16508@IL-DOMER-W.main(1)",
+      "children" : [ {
+        "name" : "Test 02: Verify Subtraction calculation",
+        "uid" : "c0f590e3e0e335d1",
+        "parentUid" : "0e0f6f571cca8a9dbb39ef48394552b7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580896190623,
+          "stop" : 1580896193132,
+          "duration" : 2509
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "desktop" ]
+      }, {
+        "name" : "Test 01: Verify Addition calculation",
+        "uid" : "f60732714e9d123b",
+        "parentUid" : "0e0f6f571cca8a9dbb39ef48394552b7",
+        "status" : "failed",
+        "time" : {
+          "start" : 1580896182907,
+          "stop" : 1580896185635,
+          "duration" : 2728
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "desktop" ]
+      }, {
+        "name" : "Test 04: Verify Division calculation",
+        "uid" : "43a685eff57f814a",
+        "parentUid" : "0e0f6f571cca8a9dbb39ef48394552b7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580896185715,
+          "stop" : 1580896188488,
+          "duration" : 2773
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "desktop" ]
+      }, {
+        "name" : "Test 03: Verify Multiplication calculation",
+        "uid" : "b7e2af3285b8031f",
+        "parentUid" : "0e0f6f571cca8a9dbb39ef48394552b7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580896188496,
+          "stop" : 1580896190615,
+          "duration" : 2119
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "desktop" ]
+      } ],
+      "uid" : "0e0f6f571cca8a9dbb39ef48394552b7"
+    }, {
+      "name" : "17428@IL-DOMER-W.main(1)",
+      "children" : [ {
+        "name" : "Test 01: Verify Addition calculation",
+        "uid" : "588a32d27790d0c6",
+        "parentUid" : "75e370f3f22f7e959dc0d43492e36f36",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580895225628,
+          "stop" : 1580895228454,
+          "duration" : 2826
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "desktop" ]
+      }, {
+        "name" : "Test 02: Verify Subtraction calculation",
+        "uid" : "b1f74715cc7924ac",
+        "parentUid" : "75e370f3f22f7e959dc0d43492e36f36",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580895228533,
+          "stop" : 1580895231020,
+          "duration" : 2487
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "desktop" ]
+      } ],
+      "uid" : "75e370f3f22f7e959dc0d43492e36f36"
+    }, {
+      "name" : "13604@IL-DOMER-W.main(1)",
+      "children" : [ {
+        "name" : "Test 07: Compare nopCommerce main page icon",
+        "uid" : "e7443d1b2f79846d",
+        "parentUid" : "424c34ad2f19caeb635c25d128e672a8",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1580824681446,
+          "stop" : 1580824681455,
+          "duration" : 9
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "startSession",
+        "uid" : "af7a19c80e4f4367",
+        "parentUid" : "424c34ad2f19caeb635c25d128e672a8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1580824681117,
+          "stop" : 1580824681129,
+          "duration" : 12
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "424c34ad2f19caeb635c25d128e672a8"
+    }, {
+      "name" : "25424@IL-DOMER-W.main(1)",
+      "children" : [ {
+        "name" : "Test 02: Verify mortgage interest only",
+        "uid" : "37e20530c810162e",
+        "parentUid" : "ff6a5d7ea845adbfe802febf2dd36884",
+        "status" : "passed",
+        "time" : {
+          "start" : 1581022367641,
+          "stop" : 1581022371652,
+          "duration" : 4011
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "mobile" ]
+      }, {
+        "name" : "Test 01: Verify mortgage",
+        "uid" : "1731154cc02bded9",
+        "parentUid" : "ff6a5d7ea845adbfe802febf2dd36884",
+        "status" : "passed",
+        "time" : {
+          "start" : 1581022362713,
+          "stop" : 1581022367576,
+          "duration" : 4863
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "mobile" ]
+      } ],
+      "uid" : "ff6a5d7ea845adbfe802febf2dd36884"
+    }, {
+      "name" : "16248@IL-DOMER-W.main(1)",
+      "children" : [ {
+        "name" : "Test 01: Post team to Grafana and verify",
+        "uid" : "f12aae9c5f7cbb44",
+        "parentUid" : "701c989b358345b6f4de5cbeab9b6812",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580592561455,
+          "stop" : 1580592563270,
+          "duration" : 1815
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "api" ]
+      }, {
+        "name" : "Test 02: Update team value in Grafana and verify",
+        "uid" : "9dd3557021fc1be",
+        "parentUid" : "701c989b358345b6f4de5cbeab9b6812",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580592563396,
+          "stop" : 1580592563535,
+          "duration" : 139
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "api" ]
+      }, {
+        "name" : "Test 03: Delete team from Grafana and verify",
+        "uid" : "4f4d8f27a3674cf9",
+        "parentUid" : "701c989b358345b6f4de5cbeab9b6812",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580592563548,
+          "stop" : 1580592563651,
+          "duration" : 103
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "api" ]
+      } ],
+      "uid" : "701c989b358345b6f4de5cbeab9b6812"
+    }, {
+      "name" : "21720@IL-DOMER-W.main(1)",
+      "children" : [ {
+        "name" : "Test 02: Verify mortgage interest only",
+        "uid" : "5bc1bff34595270c",
+        "parentUid" : "35e278b11f6ca09ef4b4f8528caa6b4e",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1581022102517,
+          "stop" : 1581022102517,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "startSession",
+        "uid" : "bae2c22167f9650d",
+        "parentUid" : "35e278b11f6ca09ef4b4f8528caa6b4e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1581022102364,
+          "stop" : 1581022102368,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test 01: Verify mortgage",
+        "uid" : "43f118c64dc9b021",
+        "parentUid" : "35e278b11f6ca09ef4b4f8528caa6b4e",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1581022102503,
+          "stop" : 1581022102505,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "35e278b11f6ca09ef4b4f8528caa6b4e"
+    }, {
+      "name" : "15292@IL-DOMER-W.main(1)",
+      "children" : [ {
+        "name" : "Test 04: Build your own PC",
+        "uid" : "90f7d9bb08e61b13",
+        "parentUid" : "9d933fe89ad7b6dd536a4dc5d4491670",
+        "status" : "broken",
+        "time" : {
+          "start" : 1580836831629,
+          "stop" : 1580836847598,
+          "duration" : 15969
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test 06: Verify All in one PC rating",
+        "uid" : "ed10fd28de42c214",
+        "parentUid" : "9d933fe89ad7b6dd536a4dc5d4491670",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580836854148,
+          "stop" : 1580836859079,
+          "duration" : 4931
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test 07: Compare nopCommerce main page icon",
+        "uid" : "9500e565d35df7be",
+        "parentUid" : "9d933fe89ad7b6dd536a4dc5d4491670",
+        "status" : "broken",
+        "time" : {
+          "start" : 1580836859891,
+          "stop" : 1580836866693,
+          "duration" : 6802
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test 01: Login to NopCommerce",
+        "uid" : "d1d1888c71d7a7ae",
+        "parentUid" : "9d933fe89ad7b6dd536a4dc5d4491670",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580836815854,
+          "stop" : 1580836821116,
+          "duration" : 5262
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test 02: Verify desktop page header text",
+        "uid" : "ccc7f23a9e6d1535",
+        "parentUid" : "9d933fe89ad7b6dd536a4dc5d4491670",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580836823006,
+          "stop" : 1580836825600,
+          "duration" : 2594
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test 05: Verify Digital storm model price",
+        "uid" : "9e1243569930c0c5",
+        "parentUid" : "9d933fe89ad7b6dd536a4dc5d4491670",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580836848366,
+          "stop" : 1580836853257,
+          "duration" : 4891
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test 03: Verify Build desktop PC basic price",
+        "uid" : "bd70a8308f2ba311",
+        "parentUid" : "9d933fe89ad7b6dd536a4dc5d4491670",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580836826449,
+          "stop" : 1580836830934,
+          "duration" : 4485
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      } ],
+      "uid" : "9d933fe89ad7b6dd536a4dc5d4491670"
+    }, {
+      "name" : "16820@IL-DOMER-W.main(1)",
+      "children" : [ {
+        "name" : "Test 05: Verify Digital storm model price",
+        "uid" : "2a5a68118d01bb4f",
+        "parentUid" : "3cf0556b54cbf50385989d53e5dd93bc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580826594040,
+          "stop" : 1580826596787,
+          "duration" : 2747
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test 01: Login to NopCommerce",
+        "uid" : "6cecbe5aedd6c23b",
+        "parentUid" : "3cf0556b54cbf50385989d53e5dd93bc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580826564485,
+          "stop" : 1580826567339,
+          "duration" : 2854
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test 02: Verify desktop page header text",
+        "uid" : "1c83d88a974f8df4",
+        "parentUid" : "3cf0556b54cbf50385989d53e5dd93bc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580826568171,
+          "stop" : 1580826569150,
+          "duration" : 979
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test 03: Verify Build desktop PC basic price",
+        "uid" : "1dae081011c10572",
+        "parentUid" : "3cf0556b54cbf50385989d53e5dd93bc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580826570434,
+          "stop" : 1580826573717,
+          "duration" : 3283
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test 06: Verify All in one PC rating",
+        "uid" : "e4cc0b13f5d47e5b",
+        "parentUid" : "3cf0556b54cbf50385989d53e5dd93bc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580826597357,
+          "stop" : 1580826599781,
+          "duration" : 2424
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test 07: Compare nopCommerce main page icon",
+        "uid" : "9ce9025ee52f6060",
+        "parentUid" : "3cf0556b54cbf50385989d53e5dd93bc",
+        "status" : "broken",
+        "time" : {
+          "start" : 1580826600320,
+          "stop" : 1580826601750,
+          "duration" : 1430
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test 04: Build your own PC",
+        "uid" : "872256cd2c479e83",
+        "parentUid" : "3cf0556b54cbf50385989d53e5dd93bc",
+        "status" : "broken",
+        "time" : {
+          "start" : 1580826574247,
+          "stop" : 1580826593354,
+          "duration" : 19107
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      } ],
+      "uid" : "3cf0556b54cbf50385989d53e5dd93bc"
+    }, {
+      "name" : "24464@IL-DOMER-W.main(1)",
+      "children" : [ {
+        "name" : "Test 01: Login to Grafana with DB",
+        "uid" : "918ee133f9d9e2f0",
+        "parentUid" : "eaf2755c845da6d43950c58a01e9d572",
+        "status" : "passed",
+        "time" : {
+          "start" : 1581068659859,
+          "stop" : 1581068663409,
+          "duration" : 3550
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "db" ]
+      } ],
+      "uid" : "eaf2755c845da6d43950c58a01e9d572"
+    }, {
+      "name" : "8792@IL-DOMER-W.main(1)",
+      "children" : [ {
+        "name" : "Test 01: Login to NopCommerce",
+        "uid" : "3e26dd3079825a91",
+        "parentUid" : "deb61d8c4a27057a355e53393ae606d8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1581017797885,
+          "stop" : 1581017802011,
+          "duration" : 4126
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test 05: Verify Digital storm model price",
+        "uid" : "b6c63a1e7e8e0741",
+        "parentUid" : "deb61d8c4a27057a355e53393ae606d8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1581017818933,
+          "stop" : 1581017823180,
+          "duration" : 4247
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test 07: Compare nopCommerce main page icon",
+        "uid" : "3a8b14b778d5268",
+        "parentUid" : "deb61d8c4a27057a355e53393ae606d8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1581017829787,
+          "stop" : 1581017836638,
+          "duration" : 6851
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test 06: Verify All in one PC rating",
+        "uid" : "ebc3cfd80c549d60",
+        "parentUid" : "deb61d8c4a27057a355e53393ae606d8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1581017824182,
+          "stop" : 1581017828721,
+          "duration" : 4539
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test 03: Verify Build desktop PC basic price",
+        "uid" : "429a530b87a232bb",
+        "parentUid" : "deb61d8c4a27057a355e53393ae606d8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1581017807553,
+          "stop" : 1581017812896,
+          "duration" : 5343
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test 02: Verify desktop page header text",
+        "uid" : "5309ca6226c6c2e2",
+        "parentUid" : "deb61d8c4a27057a355e53393ae606d8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1581017803956,
+          "stop" : 1581017805863,
+          "duration" : 1907
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test 04: Build your own PC",
+        "uid" : "3130c414791a08c1",
+        "parentUid" : "deb61d8c4a27057a355e53393ae606d8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1581017813839,
+          "stop" : 1581017817948,
+          "duration" : 4109
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      } ],
+      "uid" : "deb61d8c4a27057a355e53393ae606d8"
+    }, {
+      "name" : "15708@IL-DOMER-W.main(1)",
+      "children" : [ {
+        "name" : "Test 01: Verify Addition calculation",
+        "uid" : "cbd993fa57285c02",
+        "parentUid" : "839536a1b161413265881703a56e64d6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1581068112050,
+          "stop" : 1581068128346,
+          "duration" : 16296
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "desktop" ]
+      }, {
+        "name" : "Test 04: Verify Division calculation",
+        "uid" : "22dcdbcd44687b64",
+        "parentUid" : "839536a1b161413265881703a56e64d6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1581068159639,
+          "stop" : 1581068178484,
+          "duration" : 18845
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "desktop" ]
+      }, {
+        "name" : "Test 03: Verify Multiplication calculation",
+        "uid" : "2af27c0f1ffb17bf",
+        "parentUid" : "839536a1b161413265881703a56e64d6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1581068145506,
+          "stop" : 1581068159624,
+          "duration" : 14118
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "desktop" ]
+      }, {
+        "name" : "Test 02: Verify Subtraction calculation",
+        "uid" : "568ed3a100491c06",
+        "parentUid" : "839536a1b161413265881703a56e64d6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1581068128549,
+          "stop" : 1581068145453,
+          "duration" : 16904
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "desktop" ]
+      } ],
+      "uid" : "839536a1b161413265881703a56e64d6"
+    }, {
+      "name" : "15464@IL-DOMER-W.main(1)",
+      "children" : [ {
+        "name" : "Test 01: Login to NopCommerce",
+        "uid" : "797474e3c1c387f6",
+        "parentUid" : "f5c8d21553ee6754a4ac89162be43814",
+        "status" : "passed",
+        "time" : {
+          "start" : 1581076482518,
+          "stop" : 1581076486121,
+          "duration" : 3603
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test 04: Build your own PC",
+        "uid" : "5200b3692431a550",
+        "parentUid" : "f5c8d21553ee6754a4ac89162be43814",
+        "status" : "passed",
+        "time" : {
+          "start" : 1581076496944,
+          "stop" : 1581076502575,
+          "duration" : 5631
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test 06: Verify All in one PC rating",
+        "uid" : "771812f45af2733f",
+        "parentUid" : "f5c8d21553ee6754a4ac89162be43814",
+        "status" : "passed",
+        "time" : {
+          "start" : 1581076508232,
+          "stop" : 1581076512831,
+          "duration" : 4599
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test 02: Verify desktop page header text",
+        "uid" : "a187134160c15564",
+        "parentUid" : "f5c8d21553ee6754a4ac89162be43814",
+        "status" : "passed",
+        "time" : {
+          "start" : 1581076487908,
+          "stop" : 1581076489625,
+          "duration" : 1717
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test 05: Verify Digital storm model price",
+        "uid" : "3ee0d8b7c34fbcad",
+        "parentUid" : "f5c8d21553ee6754a4ac89162be43814",
+        "status" : "passed",
+        "time" : {
+          "start" : 1581076503389,
+          "stop" : 1581076507359,
+          "duration" : 3970
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test 03: Verify Build desktop PC basic price",
+        "uid" : "a97b6966fd3c13de",
+        "parentUid" : "f5c8d21553ee6754a4ac89162be43814",
+        "status" : "passed",
+        "time" : {
+          "start" : 1581076491103,
+          "stop" : 1581076495999,
+          "duration" : 4896
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test 07: Compare nopCommerce main page icon",
+        "uid" : "93a7c3f39b374a50",
+        "parentUid" : "f5c8d21553ee6754a4ac89162be43814",
+        "status" : "passed",
+        "time" : {
+          "start" : 1581076513758,
+          "stop" : 1581076520625,
+          "duration" : 6867
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      } ],
+      "uid" : "f5c8d21553ee6754a4ac89162be43814"
+    }, {
+      "name" : "1948@IL-DOMER-W.main(1)",
+      "children" : [ {
+        "name" : "Test 01: Verify Addition calculation",
+        "uid" : "92bc7d54c644362f",
+        "parentUid" : "6b27dea154311e8fded49860e7d5d679",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580895044957,
+          "stop" : 1580895046937,
+          "duration" : 1980
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "desktop" ]
+      }, {
+        "name" : "Test 02: Verify Subtraction calculation",
+        "uid" : "22bdd071d84b211e",
+        "parentUid" : "6b27dea154311e8fded49860e7d5d679",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580895047016,
+          "stop" : 1580895048917,
+          "duration" : 1901
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "desktop" ]
+      } ],
+      "uid" : "6b27dea154311e8fded49860e7d5d679"
+    }, {
+      "name" : "10284@IL-DOMER-W.main(1)",
+      "children" : [ {
+        "name" : "Test 01: Verify Addition calculation",
+        "uid" : "f1edd64a993dd7fb",
+        "parentUid" : "43a9cca6d132b11c85402344f07a39ad",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580842243001,
+          "stop" : 1580842244685,
+          "duration" : 1684
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "desktop" ]
+      }, {
+        "name" : "Test 02: Verify Subtraction calculation",
+        "uid" : "223390c9c9722922",
+        "parentUid" : "43a9cca6d132b11c85402344f07a39ad",
+        "status" : "broken",
+        "time" : {
+          "start" : 1580842244750,
+          "stop" : 1580842334569,
+          "duration" : 89819
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "desktop" ]
+      } ],
+      "uid" : "43a9cca6d132b11c85402344f07a39ad"
+    }, {
+      "name" : "8704@IL-DOMER-W.main(1)",
+      "children" : [ {
+        "name" : "Test 07: Compare nopCommerce main page icon",
+        "uid" : "817e01c742600992",
+        "parentUid" : "67adc9d896e5dc1c377f80dd2afbcfa8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1581075891603,
+          "stop" : 1581075898663,
+          "duration" : 7060
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test 04: Build your own PC",
+        "uid" : "c201aee9c30fdaae",
+        "parentUid" : "67adc9d896e5dc1c377f80dd2afbcfa8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1581075861579,
+          "stop" : 1581075867473,
+          "duration" : 5894
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test 03: Verify Build desktop PC basic price",
+        "uid" : "c18a3eb3ac5ec0a6",
+        "parentUid" : "67adc9d896e5dc1c377f80dd2afbcfa8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1581075856570,
+          "stop" : 1581075860679,
+          "duration" : 4109
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test 06: Verify All in one PC rating",
+        "uid" : "27227ad5a7e80df9",
+        "parentUid" : "67adc9d896e5dc1c377f80dd2afbcfa8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1581075886936,
+          "stop" : 1581075890676,
+          "duration" : 3740
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test 05: Verify Digital storm model price",
+        "uid" : "1b285677194c4d7",
+        "parentUid" : "67adc9d896e5dc1c377f80dd2afbcfa8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1581075868151,
+          "stop" : 1581075886136,
+          "duration" : 17985
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test 02: Verify desktop page header text",
+        "uid" : "4eee05259529217d",
+        "parentUid" : "67adc9d896e5dc1c377f80dd2afbcfa8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1581075853713,
+          "stop" : 1581075855608,
+          "duration" : 1895
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test 01: Login to NopCommerce",
+        "uid" : "d209737d4cb4c84c",
+        "parentUid" : "67adc9d896e5dc1c377f80dd2afbcfa8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1581075847647,
+          "stop" : 1581075851809,
+          "duration" : 4162
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      } ],
+      "uid" : "67adc9d896e5dc1c377f80dd2afbcfa8"
+    }, {
+      "name" : "19248@IL-DOMER-W.main(1)",
+      "children" : [ {
+        "name" : "Test 07: Compare nopCommerce main page icon",
+        "uid" : "92d9ca9c36a35a26",
+        "parentUid" : "1d5c8483a9f606b6802d798740630173",
+        "status" : "passed",
+        "time" : {
+          "start" : 1581069363328,
+          "stop" : 1581069370240,
+          "duration" : 6912
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test 04: Build your own PC",
+        "uid" : "ab4826530447a13e",
+        "parentUid" : "1d5c8483a9f606b6802d798740630173",
+        "status" : "failed",
+        "time" : {
+          "start" : 1581069345543,
+          "stop" : 1581069351314,
+          "duration" : 5771
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test 06: Verify All in one PC rating",
+        "uid" : "a7eebb1f43be83fd",
+        "parentUid" : "1d5c8483a9f606b6802d798740630173",
+        "status" : "passed",
+        "time" : {
+          "start" : 1581069357340,
+          "stop" : 1581069362066,
+          "duration" : 4726
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test 05: Verify Digital storm model price",
+        "uid" : "937d909d04bede1d",
+        "parentUid" : "1d5c8483a9f606b6802d798740630173",
+        "status" : "passed",
+        "time" : {
+          "start" : 1581069352447,
+          "stop" : 1581069356213,
+          "duration" : 3766
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test 02: Verify desktop page header text",
+        "uid" : "d6f972faba860a51",
+        "parentUid" : "1d5c8483a9f606b6802d798740630173",
+        "status" : "passed",
+        "time" : {
+          "start" : 1581069335975,
+          "stop" : 1581069338215,
+          "duration" : 2240
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test 01: Login to NopCommerce",
+        "uid" : "f1d2ef0950a73c61",
+        "parentUid" : "1d5c8483a9f606b6802d798740630173",
+        "status" : "passed",
+        "time" : {
+          "start" : 1581069329594,
+          "stop" : 1581069333682,
+          "duration" : 4088
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test 03: Verify Build desktop PC basic price",
+        "uid" : "d7170638ded72beb",
+        "parentUid" : "1d5c8483a9f606b6802d798740630173",
+        "status" : "passed",
+        "time" : {
+          "start" : 1581069339554,
+          "stop" : 1581069344238,
+          "duration" : 4684
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      } ],
+      "uid" : "1d5c8483a9f606b6802d798740630173"
+    }, {
+      "name" : "3152@IL-DOMER-W.main(1)",
+      "children" : [ {
+        "name" : "Test 07: Compare nopCommerce main page icon",
+        "uid" : "86f8ac71d0f87415",
+        "parentUid" : "7cd23fcb0730d7312b4b42c6121cec63",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580837213401,
+          "stop" : 1580837219241,
+          "duration" : 5840
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      } ],
+      "uid" : "7cd23fcb0730d7312b4b42c6121cec63"
+    }, {
+      "name" : "17660@IL-DOMER-W.main(1)",
+      "children" : [ {
+        "name" : "Test 01: Verify Addition calculation",
+        "uid" : "8d859c7baa7c95f",
+        "parentUid" : "c68f1253c6a3ea9636060967610f8860",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580831753886,
+          "stop" : 1580831768158,
+          "duration" : 14272
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "desktop" ]
+      } ],
+      "uid" : "c68f1253c6a3ea9636060967610f8860"
+    }, {
+      "name" : "1600@IL-DOMER-W.main(1)",
+      "children" : [ {
+        "name" : "Test 07: Compare nopCommerce main page icon",
+        "uid" : "ebf3fc0ab52df94e",
+        "parentUid" : "2bf73ed181319cad3c738d9aa7a192d1",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1580836769236,
+          "stop" : 1580836769240,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "startSession",
+        "uid" : "bf49c4a406d97cd8",
+        "parentUid" : "2bf73ed181319cad3c738d9aa7a192d1",
+        "status" : "broken",
+        "time" : {
+          "start" : 1580836769090,
+          "stop" : 1580836769094,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2bf73ed181319cad3c738d9aa7a192d1"
+    }, {
+      "name" : "18704@IL-DOMER-W.main(1)",
+      "children" : [ {
+        "name" : "Test 02: Verify Subtraction calculation",
+        "uid" : "ac2d413e9326e5b8",
+        "parentUid" : "9a0ca96d0de8157336818e523bdf8132",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580896230170,
+          "stop" : 1580896232577,
+          "duration" : 2407
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "desktop" ]
+      }, {
+        "name" : "Test 03: Verify Multiplication calculation",
+        "uid" : "4bc1a33007c6148f",
+        "parentUid" : "9a0ca96d0de8157336818e523bdf8132",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580896228063,
+          "stop" : 1580896230164,
+          "duration" : 2101
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "desktop" ]
+      }, {
+        "name" : "Test 01: Verify Addition calculation",
+        "uid" : "8ea1e15d1e21aa15",
+        "parentUid" : "9a0ca96d0de8157336818e523bdf8132",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580896222868,
+          "stop" : 1580896225303,
+          "duration" : 2435
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "desktop" ]
+      }, {
+        "name" : "Test 04: Verify Division calculation",
+        "uid" : "a55f8a37a0fd6006",
+        "parentUid" : "9a0ca96d0de8157336818e523bdf8132",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580896225371,
+          "stop" : 1580896228054,
+          "duration" : 2683
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "desktop" ]
+      } ],
+      "uid" : "9a0ca96d0de8157336818e523bdf8132"
+    }, {
+      "name" : "15712@IL-DOMER-W.main(1)",
+      "children" : [ {
+        "name" : "Test 02: Verify desktop page header text",
+        "uid" : "e78ebdfcac57cdc9",
+        "parentUid" : "b027e4b35fff3c5ebc63b2b8a46fcd16",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580841334081,
+          "stop" : 1580841335988,
+          "duration" : 1907
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test 04: Build your own PC",
+        "uid" : "fddbb05b39a2e581",
+        "parentUid" : "b027e4b35fff3c5ebc63b2b8a46fcd16",
+        "status" : "broken",
+        "time" : {
+          "start" : 1580841340259,
+          "stop" : 1580841347635,
+          "duration" : 7376
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test 01: Login to NopCommerce",
+        "uid" : "37015db0a40bc2d3",
+        "parentUid" : "b027e4b35fff3c5ebc63b2b8a46fcd16",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580841330320,
+          "stop" : 1580841332592,
+          "duration" : 2272
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test 05: Verify Digital storm model price",
+        "uid" : "8188e1fa97479d6e",
+        "parentUid" : "b027e4b35fff3c5ebc63b2b8a46fcd16",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580841348133,
+          "stop" : 1580841350009,
+          "duration" : 1876
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test 03: Verify Build desktop PC basic price",
+        "uid" : "25be86bd7a28b646",
+        "parentUid" : "b027e4b35fff3c5ebc63b2b8a46fcd16",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580841336473,
+          "stop" : 1580841339730,
+          "duration" : 3257
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test 06: Verify All in one PC rating",
+        "uid" : "6f1b3e2111c62ec8",
+        "parentUid" : "b027e4b35fff3c5ebc63b2b8a46fcd16",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580841350580,
+          "stop" : 1580841352786,
+          "duration" : 2206
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test 07: Compare nopCommerce main page icon",
+        "uid" : "9e2075bf2ce629b8",
+        "parentUid" : "b027e4b35fff3c5ebc63b2b8a46fcd16",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580841353288,
+          "stop" : 1580841358840,
+          "duration" : 5552
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      } ],
+      "uid" : "b027e4b35fff3c5ebc63b2b8a46fcd16"
+    }, {
+      "name" : "20404@IL-DOMER-W.main(1)",
+      "children" : [ {
+        "name" : "Test 04: Build your own PC",
+        "uid" : "459957de2088a82d",
+        "parentUid" : "a37b49d8e3c95ab292338faf3efa7341",
+        "status" : "broken",
+        "time" : {
+          "start" : 1580898035376,
+          "stop" : 1580898045508,
+          "duration" : 10132
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      } ],
+      "uid" : "a37b49d8e3c95ab292338faf3efa7341"
+    }, {
+      "name" : "18156@IL-DOMER-W.main(1)",
+      "children" : [ {
+        "name" : "Test 01: Login to NopCommerce",
+        "uid" : "37a2af5c74712a38",
+        "parentUid" : "0ceb58fb09a1313b7df3657039697975",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580651957530,
+          "stop" : 1580651960349,
+          "duration" : 2819
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test 05: Verify Digital storm model price",
+        "uid" : "b62f0a2817fbe075",
+        "parentUid" : "0ceb58fb09a1313b7df3657039697975",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580651971042,
+          "stop" : 1580651972809,
+          "duration" : 1767
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test 06: Verify All in one PC rating",
+        "uid" : "4988e96ee107a46d",
+        "parentUid" : "0ceb58fb09a1313b7df3657039697975",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580651973317,
+          "stop" : 1580651975590,
+          "duration" : 2273
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test 03: Verify Build desktop PC basic price",
+        "uid" : "164061e3082724e1",
+        "parentUid" : "0ceb58fb09a1313b7df3657039697975",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580651963321,
+          "stop" : 1580651966421,
+          "duration" : 3100
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test 02: Verify desktop page header text",
+        "uid" : "5793434594609453",
+        "parentUid" : "0ceb58fb09a1313b7df3657039697975",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580651961794,
+          "stop" : 1580651962763,
+          "duration" : 969
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test 07: Compare nopCommerce main page icon",
+        "uid" : "b179d2c35c59049",
+        "parentUid" : "0ceb58fb09a1313b7df3657039697975",
+        "status" : "broken",
+        "time" : {
+          "start" : 1580651976071,
+          "stop" : 1580651977111,
+          "duration" : 1040
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test 04: Build your own PC",
+        "uid" : "13e6acceeae9f16a",
+        "parentUid" : "0ceb58fb09a1313b7df3657039697975",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580651967010,
+          "stop" : 1580651970503,
+          "duration" : 3493
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      } ],
+      "uid" : "0ceb58fb09a1313b7df3657039697975"
+    }, {
+      "name" : "24980@IL-DOMER-W.main(1)",
+      "children" : [ {
+        "name" : "Test 01: Verify mortgage",
+        "uid" : "d5ac6518354ca401",
+        "parentUid" : "f36d3dcfd7103e18f7bfa88983fe2e26",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1581022018309,
+          "stop" : 1581022018311,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "mobile" ]
+      }, {
+        "name" : "Test 02: Verify mortgage interest only",
+        "uid" : "f3bd0c90beb39772",
+        "parentUid" : "f36d3dcfd7103e18f7bfa88983fe2e26",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1581022018318,
+          "stop" : 1581022018318,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "mobile" ]
+      }, {
+        "name" : "startSession",
+        "uid" : "a1448007efa923d3",
+        "parentUid" : "f36d3dcfd7103e18f7bfa88983fe2e26",
+        "status" : "broken",
+        "time" : {
+          "start" : 1581022018125,
+          "stop" : 1581022018127,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "mobile" ]
+      } ],
+      "uid" : "f36d3dcfd7103e18f7bfa88983fe2e26"
+    }, {
+      "name" : "7696@IL-DOMER-W.main(1)",
+      "children" : [ {
+        "name" : "Test 01: Verify Addition calculation",
+        "uid" : "e99803caf5cc47f3",
+        "parentUid" : "65de098f35bee8d08e2626c577a2a727",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580670048149,
+          "stop" : 1580670055128,
+          "duration" : 6979
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "desktop" ]
+      } ],
+      "uid" : "65de098f35bee8d08e2626c577a2a727"
+    }, {
+      "name" : "14364@IL-DOMER-W.main(1)",
+      "children" : [ {
+        "name" : "Test 01: Verify Addition calculation",
+        "uid" : "438f56d3f707be62",
+        "parentUid" : "28675b99dea2e5d8077049ecf1d3537d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580842364028,
+          "stop" : 1580842365685,
+          "duration" : 1657
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "desktop" ]
+      } ],
+      "uid" : "28675b99dea2e5d8077049ecf1d3537d"
+    }, {
+      "name" : "19972@IL-DOMER-W.main(1)",
+      "children" : [ {
+        "name" : "Test 04: Build your own PC",
+        "uid" : "428c712882293eb0",
+        "parentUid" : "a0e067423a228c3ee90be1fccad4a840",
+        "status" : "failed",
+        "time" : {
+          "start" : 1580935981576,
+          "stop" : 1580935985956,
+          "duration" : 4380
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      } ],
+      "uid" : "a0e067423a228c3ee90be1fccad4a840"
+    }, {
+      "name" : "6072@IL-DOMER-W.main(1)",
+      "children" : [ {
+        "name" : "Test 04: Build your own PC",
+        "uid" : "612d6ecd41bcf6fe",
+        "parentUid" : "29909a55975b85e73074855a81eb2578",
+        "status" : "broken",
+        "time" : {
+          "start" : 1580842828432,
+          "stop" : 1580842842448,
+          "duration" : 14016
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test 01: Login to NopCommerce",
+        "uid" : "1d3db6ac791f3c79",
+        "parentUid" : "29909a55975b85e73074855a81eb2578",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580842824788,
+          "stop" : 1580842826847,
+          "duration" : 2059
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      } ],
+      "uid" : "29909a55975b85e73074855a81eb2578"
+    }, {
+      "name" : "23148@IL-DOMER-W.main(1)",
+      "children" : [ {
+        "name" : "Test 01: Login to Grafana with DB",
+        "uid" : "c16335bbec257f41",
+        "parentUid" : "8ce880ca8c0449554b5f1e707ee69f09",
+        "status" : "passed",
+        "time" : {
+          "start" : 1581067615489,
+          "stop" : 1581067619246,
+          "duration" : 3757
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "db" ]
+      } ],
+      "uid" : "8ce880ca8c0449554b5f1e707ee69f09"
+    }, {
+      "name" : "3100@IL-DOMER-W.main(1)",
+      "children" : [ {
+        "name" : "Test 04: Build your own PC",
+        "uid" : "745b1f02cdd50ee4",
+        "parentUid" : "9d02eee4484dd123b16f4c027ab19b29",
+        "status" : "failed",
+        "time" : {
+          "start" : 1580913839052,
+          "stop" : 1580913843308,
+          "duration" : 4256
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      } ],
+      "uid" : "9d02eee4484dd123b16f4c027ab19b29"
+    }, {
+      "name" : "20112@IL-DOMER-W.main(1)",
+      "children" : [ {
+        "name" : "Test 04: Build your own PC",
+        "uid" : "6c33bc17dd26a499",
+        "parentUid" : "b6feee87d96b0c25158ff1b51a04880c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580964014541,
+          "stop" : 1580964021553,
+          "duration" : 7012
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test 01: Login to NopCommerce",
+        "uid" : "d03b65c5ec615a7f",
+        "parentUid" : "b6feee87d96b0c25158ff1b51a04880c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580963992297,
+          "stop" : 1580963998091,
+          "duration" : 5794
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test 05: Verify Digital storm model price",
+        "uid" : "f0969f23d6f5a56d",
+        "parentUid" : "b6feee87d96b0c25158ff1b51a04880c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580964022555,
+          "stop" : 1580964026624,
+          "duration" : 4069
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test 02: Verify desktop page header text",
+        "uid" : "a25f3014b3b4e85",
+        "parentUid" : "b6feee87d96b0c25158ff1b51a04880c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580964000134,
+          "stop" : 1580964002246,
+          "duration" : 2112
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test 07: Compare nopCommerce main page icon",
+        "uid" : "ddbedab95feab8c8",
+        "parentUid" : "b6feee87d96b0c25158ff1b51a04880c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580964033916,
+          "stop" : 1580964040915,
+          "duration" : 6999
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test 03: Verify Build desktop PC basic price",
+        "uid" : "66e17a7492925d73",
+        "parentUid" : "b6feee87d96b0c25158ff1b51a04880c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1580964003792,
+          "stop" : 1580964013626,
+          "duration" : 9834
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test 06: Verify All in one PC rating",
+        "uid" : "10d81c5a47f09a2f",
+        "parentUid" : "b6feee87d96b0c25158ff1b51a04880c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580964027668,
+          "stop" : 1580964032853,
+          "duration" : 5185
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      } ],
+      "uid" : "b6feee87d96b0c25158ff1b51a04880c"
+    }, {
+      "name" : "4452@IL-DOMER-W.main(1)",
+      "children" : [ {
+        "name" : "Test 01: Verify screen resolution",
+        "uid" : "2049626116e57ec0",
+        "parentUid" : "89b94d9966a8ca721f79ac4ebf167aad",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580592651883,
+          "stop" : 1580592652369,
+          "duration" : 486
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "electron" ]
+      } ],
+      "uid" : "89b94d9966a8ca721f79ac4ebf167aad"
+    }, {
+      "name" : "536@IL-DOMER-W.main(1)",
+      "children" : [ {
+        "name" : "Test 03: Verify Build desktop PC basic price",
+        "uid" : "da635da0d5c603f3",
+        "parentUid" : "dfcf75c52e58f76a75ba034de3dcc10d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580837476080,
+          "stop" : 1580837481530,
+          "duration" : 5450
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test 06: Verify All in one PC rating",
+        "uid" : "c2de1abfc245a21b",
+        "parentUid" : "dfcf75c52e58f76a75ba034de3dcc10d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580837500791,
+          "stop" : 1580837504631,
+          "duration" : 3840
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test 01: Login to NopCommerce",
+        "uid" : "56903bc040fd39bd",
+        "parentUid" : "dfcf75c52e58f76a75ba034de3dcc10d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580837469534,
+          "stop" : 1580837473089,
+          "duration" : 3555
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test 02: Verify desktop page header text",
+        "uid" : "f7cd137fa4569a32",
+        "parentUid" : "dfcf75c52e58f76a75ba034de3dcc10d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580837473974,
+          "stop" : 1580837475356,
+          "duration" : 1382
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test 04: Build your own PC",
+        "uid" : "4ee306a2afe08828",
+        "parentUid" : "dfcf75c52e58f76a75ba034de3dcc10d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1580837482283,
+          "stop" : 1580837494688,
+          "duration" : 12405
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test 05: Verify Digital storm model price",
+        "uid" : "26dff7811fd5dedc",
+        "parentUid" : "dfcf75c52e58f76a75ba034de3dcc10d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580837495463,
+          "stop" : 1580837499855,
+          "duration" : 4392
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test 07: Compare nopCommerce main page icon",
+        "uid" : "b3c701bb0af04531",
+        "parentUid" : "dfcf75c52e58f76a75ba034de3dcc10d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580837505393,
+          "stop" : 1580837511657,
+          "duration" : 6264
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      } ],
+      "uid" : "dfcf75c52e58f76a75ba034de3dcc10d"
+    }, {
+      "name" : "15388@IL-DOMER-W.main(1)",
+      "children" : [ {
+        "name" : "startSession",
+        "uid" : "26348e577e33b526",
+        "parentUid" : "4ece25467f0e2e05dfbf324559338e66",
+        "status" : "broken",
+        "time" : {
+          "start" : 1580667586693,
+          "stop" : 1580667586698,
+          "duration" : 5
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "desktop" ]
+      }, {
+        "name" : "Test 01: Verify Addition calculation",
+        "uid" : "8b7569719c857e6e",
+        "parentUid" : "4ece25467f0e2e05dfbf324559338e66",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1580667586998,
+          "stop" : 1580667587001,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "desktop" ]
+      } ],
+      "uid" : "4ece25467f0e2e05dfbf324559338e66"
+    }, {
+      "name" : "16584@IL-DOMER-W.main(1)",
+      "children" : [ {
+        "name" : "Test 01: Login to NopCommerce",
+        "uid" : "9b3419dce28a0119",
+        "parentUid" : "83d3a54624dd8e561a6e259f8847ee07",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580884585662,
+          "stop" : 1580884588366,
+          "duration" : 2704
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test 04: Build your own PC",
+        "uid" : "cc438ecd390e88be",
+        "parentUid" : "83d3a54624dd8e561a6e259f8847ee07",
+        "status" : "failed",
+        "time" : {
+          "start" : 1580884589687,
+          "stop" : 1580884593121,
+          "duration" : 3434
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      } ],
+      "uid" : "83d3a54624dd8e561a6e259f8847ee07"
+    }, {
+      "name" : "13756@IL-DOMER-W.main(1)",
+      "children" : [ {
+        "name" : "Test 01: Login to NopCommerce",
+        "uid" : "f263665b8bec92",
+        "parentUid" : "d90bead24c2111c2b920019fbcbccfd9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580841548809,
+          "stop" : 1580841550093,
+          "duration" : 1284
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test 04: Build your own PC",
+        "uid" : "fd2c95c213039076",
+        "parentUid" : "d90bead24c2111c2b920019fbcbccfd9",
+        "status" : "broken",
+        "time" : {
+          "start" : 1580841550638,
+          "stop" : 1580841558145,
+          "duration" : 7507
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      } ],
+      "uid" : "d90bead24c2111c2b920019fbcbccfd9"
+    }, {
+      "name" : "11652@IL-DOMER-W.main(1)",
+      "children" : [ {
+        "name" : "Test 03: Verify Build desktop PC basic price",
+        "uid" : "e61161efe84c57aa",
+        "parentUid" : "692e41a9ea23e37a2297323d2945d9fb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580593225300,
+          "stop" : 1580593227673,
+          "duration" : 2373
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test 07: Compare nopCommerce main page icon",
+        "uid" : "ba7bed2f25017c2",
+        "parentUid" : "692e41a9ea23e37a2297323d2945d9fb",
+        "status" : "broken",
+        "time" : {
+          "start" : 1580593265950,
+          "stop" : 1580593267017,
+          "duration" : 1067
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test 05: Verify Digital storm model price",
+        "uid" : "b7c87adf5cb407b1",
+        "parentUid" : "692e41a9ea23e37a2297323d2945d9fb",
+        "status" : "broken",
+        "time" : {
+          "start" : 1580593245307,
+          "stop" : 1580593262579,
+          "duration" : 17272
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test 06: Verify All in one PC rating",
+        "uid" : "b36453c3b24eb962",
+        "parentUid" : "692e41a9ea23e37a2297323d2945d9fb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580593263147,
+          "stop" : 1580593265453,
+          "duration" : 2306
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test 01: Login to NopCommerce",
+        "uid" : "907842fadf371982",
+        "parentUid" : "692e41a9ea23e37a2297323d2945d9fb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580593219948,
+          "stop" : 1580593222374,
+          "duration" : 2426
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test 02: Verify desktop page header text",
+        "uid" : "763e07aada998023",
+        "parentUid" : "692e41a9ea23e37a2297323d2945d9fb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580593222977,
+          "stop" : 1580593224690,
+          "duration" : 1713
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test 04: Build your own PC",
+        "uid" : "efbd55bb81730be3",
+        "parentUid" : "692e41a9ea23e37a2297323d2945d9fb",
+        "status" : "broken",
+        "time" : {
+          "start" : 1580593228175,
+          "stop" : 1580593244685,
+          "duration" : 16510
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      } ],
+      "uid" : "692e41a9ea23e37a2297323d2945d9fb"
+    }, {
+      "name" : "11984@IL-DOMER-W.main(1)",
+      "children" : [ {
+        "name" : "Test 04: Build your own PC",
+        "uid" : "b1d1de6d625388cf",
+        "parentUid" : "fcbfb3e6a7cc69a59a1c8a602fabc3aa",
+        "status" : "broken",
+        "time" : {
+          "start" : 1580841478541,
+          "stop" : 1580841486055,
+          "duration" : 7514
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test 06: Verify All in one PC rating",
+        "uid" : "1a109211a940113e",
+        "parentUid" : "fcbfb3e6a7cc69a59a1c8a602fabc3aa",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580841489016,
+          "stop" : 1580841491221,
+          "duration" : 2205
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test 02: Verify desktop page header text",
+        "uid" : "39d679ba41940fd6",
+        "parentUid" : "fcbfb3e6a7cc69a59a1c8a602fabc3aa",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580841472403,
+          "stop" : 1580841474291,
+          "duration" : 1888
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test 05: Verify Digital storm model price",
+        "uid" : "a2a398988a33f83d",
+        "parentUid" : "fcbfb3e6a7cc69a59a1c8a602fabc3aa",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580841486595,
+          "stop" : 1580841488491,
+          "duration" : 1896
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test 07: Compare nopCommerce main page icon",
+        "uid" : "d61b342cdb548f08",
+        "parentUid" : "fcbfb3e6a7cc69a59a1c8a602fabc3aa",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580841491703,
+          "stop" : 1580841497246,
+          "duration" : 5543
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test 03: Verify Build desktop PC basic price",
+        "uid" : "5026bb6d7f2aef16",
+        "parentUid" : "fcbfb3e6a7cc69a59a1c8a602fabc3aa",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580841475805,
+          "stop" : 1580841478039,
+          "duration" : 2234
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test 01: Login to NopCommerce",
+        "uid" : "bc4e7deec9a5d86",
+        "parentUid" : "fcbfb3e6a7cc69a59a1c8a602fabc3aa",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580841468785,
+          "stop" : 1580841471859,
+          "duration" : 3074
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      } ],
+      "uid" : "fcbfb3e6a7cc69a59a1c8a602fabc3aa"
+    }, {
+      "name" : "22452@IL-DOMER-W.main(1)",
+      "children" : [ {
+        "name" : "Test 01: Verify Addition calculation",
+        "uid" : "80279a7de0f6dde4",
+        "parentUid" : "839991cce3d7f70b731f106bec528377",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580671450393,
+          "stop" : 1580671454742,
+          "duration" : 4349
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "desktop" ]
+      } ],
+      "uid" : "839991cce3d7f70b731f106bec528377"
+    }, {
+      "name" : "15908@IL-DOMER-W.main(1)",
+      "children" : [ {
+        "name" : "Test 04: Build your own PC",
+        "uid" : "f6c0e739e7e89122",
+        "parentUid" : "3d68e6386b02dfe88a532181216635a1",
+        "status" : "failed",
+        "time" : {
+          "start" : 1580934188545,
+          "stop" : 1580934193453,
+          "duration" : 4908
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      } ],
+      "uid" : "3d68e6386b02dfe88a532181216635a1"
+    }, {
+      "name" : "19028@IL-DOMER-W.main(1)",
+      "children" : [ {
+        "name" : "Test 01: Verify Addition calculation",
+        "uid" : "b6a13057fbaaf00a",
+        "parentUid" : "d6b856e13870088b780055d5543e0b10",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1580831328448,
+          "stop" : 1580831328452,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "startSession",
+        "uid" : "960e868df2fd5507",
+        "parentUid" : "d6b856e13870088b780055d5543e0b10",
+        "status" : "broken",
+        "time" : {
+          "start" : 1580831328237,
+          "stop" : 1580831328241,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test 02: Verify Subtraction calculation",
+        "uid" : "19eb6d636e789ed0",
+        "parentUid" : "d6b856e13870088b780055d5543e0b10",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1580831328474,
+          "stop" : 1580831328474,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d6b856e13870088b780055d5543e0b10"
+    }, {
+      "name" : "20892@IL-DOMER-W.main(1)",
+      "children" : [ {
+        "name" : "Test 01: Verify mortgage",
+        "uid" : "24202d383ef79fe8",
+        "parentUid" : "f372ec1c087b71c57de80112dfbfff91",
+        "status" : "broken",
+        "time" : {
+          "start" : 1580657555637,
+          "stop" : 1580657567782,
+          "duration" : 12145
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "mobile" ]
+      }, {
+        "name" : "Test 02: Verify mortgage interest only",
+        "uid" : "d0ec7a531607e2d",
+        "parentUid" : "f372ec1c087b71c57de80112dfbfff91",
+        "status" : "broken",
+        "time" : {
+          "start" : 1580657567985,
+          "stop" : 1580657580590,
+          "duration" : 12605
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "mobile" ]
+      } ],
+      "uid" : "f372ec1c087b71c57de80112dfbfff91"
+    }, {
+      "name" : "4860@IL-DOMER-W.main(1)",
+      "children" : [ {
+        "name" : "Test 04: Build your own PC",
+        "uid" : "9ee33f472acb04b9",
+        "parentUid" : "894572be0e3a06014460c51a019b237f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580633987810,
+          "stop" : 1580633990745,
+          "duration" : 2935
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test 03: Verify Build desktop PC basic price",
+        "uid" : "27507b37c2e74350",
+        "parentUid" : "894572be0e3a06014460c51a019b237f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580633984103,
+          "stop" : 1580633986546,
+          "duration" : 2443
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test 02: Verify desktop page header text",
+        "uid" : "cbac252eb7872b82",
+        "parentUid" : "894572be0e3a06014460c51a019b237f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580633982426,
+          "stop" : 1580633983533,
+          "duration" : 1107
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test 01: Login to NopCommerce",
+        "uid" : "94a70c64e999406d",
+        "parentUid" : "894572be0e3a06014460c51a019b237f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580633978267,
+          "stop" : 1580633981627,
+          "duration" : 3360
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test 05: Verify Digital storm model price",
+        "uid" : "ff08099075492c1d",
+        "parentUid" : "894572be0e3a06014460c51a019b237f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580633991923,
+          "stop" : 1580633993757,
+          "duration" : 1834
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test 06: Verify All in one PC rating",
+        "uid" : "ed25a1555d06302a",
+        "parentUid" : "894572be0e3a06014460c51a019b237f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580633994242,
+          "stop" : 1580633996490,
+          "duration" : 2248
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test 07: Compare nopCommerce main page icon",
+        "uid" : "7caabd3c7f32740",
+        "parentUid" : "894572be0e3a06014460c51a019b237f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1580633996976,
+          "stop" : 1580633998088,
+          "duration" : 1112
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      } ],
+      "uid" : "894572be0e3a06014460c51a019b237f"
+    }, {
+      "name" : "20732@IL-DOMER-W.main(1)",
+      "children" : [ {
+        "name" : "Test 01: Login to NopCommerce",
+        "uid" : "cc2b31508b988c57",
+        "parentUid" : "9213b529677d1020dcccc11e99660efb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580824727278,
+          "stop" : 1580824731169,
+          "duration" : 3891
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test 05: Verify Digital storm model price",
+        "uid" : "ecc5cda6728e2235",
+        "parentUid" : "9213b529677d1020dcccc11e99660efb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580824757232,
+          "stop" : 1580824760466,
+          "duration" : 3234
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test 03: Verify Build desktop PC basic price",
+        "uid" : "cd687491f6bbaf07",
+        "parentUid" : "9213b529677d1020dcccc11e99660efb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580824735290,
+          "stop" : 1580824738541,
+          "duration" : 3251
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test 02: Verify desktop page header text",
+        "uid" : "2d33cdb1633465c",
+        "parentUid" : "9213b529677d1020dcccc11e99660efb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580824732854,
+          "stop" : 1580824734703,
+          "duration" : 1849
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test 06: Verify All in one PC rating",
+        "uid" : "778f1aab3b3b91b",
+        "parentUid" : "9213b529677d1020dcccc11e99660efb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580824761271,
+          "stop" : 1580824764840,
+          "duration" : 3569
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test 04: Build your own PC",
+        "uid" : "7e0d3115ed9da0d9",
+        "parentUid" : "9213b529677d1020dcccc11e99660efb",
+        "status" : "broken",
+        "time" : {
+          "start" : 1580824739080,
+          "stop" : 1580824756258,
+          "duration" : 17178
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test 07: Compare nopCommerce main page icon",
+        "uid" : "151e4306d987ffd5",
+        "parentUid" : "9213b529677d1020dcccc11e99660efb",
+        "status" : "broken",
+        "time" : {
+          "start" : 1580824765378,
+          "stop" : 1580824766848,
+          "duration" : 1470
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      } ],
+      "uid" : "9213b529677d1020dcccc11e99660efb"
+    }, {
+      "name" : "21328@IL-DOMER-W.main(1)",
+      "children" : [ {
+        "name" : "Test 01: Login to Grafana with DB",
+        "uid" : "f3a616391f2a7805",
+        "parentUid" : "256e04e2783ba285e1eef90efce5fa0e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1581067411353,
+          "stop" : 1581067414563,
+          "duration" : 3210
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "db" ]
+      } ],
+      "uid" : "256e04e2783ba285e1eef90efce5fa0e"
+    }, {
+      "name" : "1292@IL-DOMER-W.main(1)",
+      "children" : [ {
+        "name" : "Test 07: Compare nopCommerce main page icon",
+        "uid" : "debaeeb6d4d7450a",
+        "parentUid" : "b173ca9a6db325b0a209c2d7efa92e49",
+        "status" : "broken",
+        "time" : {
+          "start" : 1580629611758,
+          "stop" : 1580629613185,
+          "duration" : 1427
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test 06: Verify All in one PC rating",
+        "uid" : "8cac9121896f1fb8",
+        "parentUid" : "b173ca9a6db325b0a209c2d7efa92e49",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580629608166,
+          "stop" : 1580629611232,
+          "duration" : 3066
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test 03: Verify Build desktop PC basic price",
+        "uid" : "df9c7128321fc03f",
+        "parentUid" : "b173ca9a6db325b0a209c2d7efa92e49",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580629582342,
+          "stop" : 1580629586213,
+          "duration" : 3871
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test 02: Verify desktop page header text",
+        "uid" : "b2bf0bbf750a3d9e",
+        "parentUid" : "b173ca9a6db325b0a209c2d7efa92e49",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580629580029,
+          "stop" : 1580629581078,
+          "duration" : 1049
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test 01: Login to NopCommerce",
+        "uid" : "7064bb6cbefd4b40",
+        "parentUid" : "b173ca9a6db325b0a209c2d7efa92e49",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580629575613,
+          "stop" : 1580629578466,
+          "duration" : 2853
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test 05: Verify Digital storm model price",
+        "uid" : "86025f10052a64a9",
+        "parentUid" : "b173ca9a6db325b0a209c2d7efa92e49",
+        "status" : "broken",
+        "time" : {
+          "start" : 1580629590953,
+          "stop" : 1580629607554,
+          "duration" : 16601
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test 04: Build your own PC",
+        "uid" : "849f100f1ae3ad15",
+        "parentUid" : "b173ca9a6db325b0a209c2d7efa92e49",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580629587439,
+          "stop" : 1580629590390,
+          "duration" : 2951
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      } ],
+      "uid" : "b173ca9a6db325b0a209c2d7efa92e49"
+    }, {
+      "name" : "13952@IL-DOMER-W.main(1)",
+      "children" : [ {
+        "name" : "Test 01: Login to Grafana with DB",
+        "uid" : "f09d705897b8f597",
+        "parentUid" : "7bda06ee6956430c7b83b4b1105e7a30",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1580824590910,
+          "stop" : 1580824590917,
+          "duration" : 7
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "startSession",
+        "uid" : "269cbf175de52b57",
+        "parentUid" : "7bda06ee6956430c7b83b4b1105e7a30",
+        "status" : "broken",
+        "time" : {
+          "start" : 1580824590404,
+          "stop" : 1580824590425,
+          "duration" : 21
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7bda06ee6956430c7b83b4b1105e7a30"
+    }, {
+      "name" : "26324@IL-DOMER-W.main(1)",
+      "children" : [ {
+        "name" : "startSession",
+        "uid" : "258de2e31d9eb2dc",
+        "parentUid" : "72c88d45f37f394453bead7e7d46f5b2",
+        "status" : "broken",
+        "time" : {
+          "start" : 1581022067940,
+          "stop" : 1581022067942,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "mobile" ]
+      }, {
+        "name" : "Test 01: Verify mortgage",
+        "uid" : "f11fbcad313729f4",
+        "parentUid" : "72c88d45f37f394453bead7e7d46f5b2",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1581022068109,
+          "stop" : 1581022068111,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "mobile" ]
+      }, {
+        "name" : "Test 02: Verify mortgage interest only",
+        "uid" : "b5728acf3aa27f0d",
+        "parentUid" : "72c88d45f37f394453bead7e7d46f5b2",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1581022068119,
+          "stop" : 1581022068119,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "mobile" ]
+      } ],
+      "uid" : "72c88d45f37f394453bead7e7d46f5b2"
+    }, {
+      "name" : "11008@IL-DOMER-W.main(1)",
+      "children" : [ {
+        "name" : "Test 04: Build your own PC",
+        "uid" : "10bca205ebc38b81",
+        "parentUid" : "1c49f306583c94743bcca17011edd2d5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1580841646900,
+          "stop" : 1580841655227,
+          "duration" : 8327
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test 01: Login to NopCommerce",
+        "uid" : "e984a84f6320d8a8",
+        "parentUid" : "1c49f306583c94743bcca17011edd2d5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580841642261,
+          "stop" : 1580841645258,
+          "duration" : 2997
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      } ],
+      "uid" : "1c49f306583c94743bcca17011edd2d5"
+    }, {
+      "name" : "11612@IL-DOMER-W.main(1)",
+      "children" : [ {
+        "name" : "Test 06: Verify All in one PC rating",
+        "uid" : "a1c6ad51d939f366",
+        "parentUid" : "714a96f2e3c8e8b869531d80239d28f9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1581069004359,
+          "stop" : 1581069008964,
+          "duration" : 4605
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test 03: Verify Build desktop PC basic price",
+        "uid" : "9d958393cf250fcd",
+        "parentUid" : "714a96f2e3c8e8b869531d80239d28f9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1581068984955,
+          "stop" : 1581068990389,
+          "duration" : 5434
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test 07: Compare nopCommerce main page icon",
+        "uid" : "6a47256b7854891",
+        "parentUid" : "714a96f2e3c8e8b869531d80239d28f9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1581069010049,
+          "stop" : 1581069016781,
+          "duration" : 6732
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test 05: Verify Digital storm model price",
+        "uid" : "29f3fd63bd97eaa2",
+        "parentUid" : "714a96f2e3c8e8b869531d80239d28f9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1581068998342,
+          "stop" : 1581069002473,
+          "duration" : 4131
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test 01: Login to NopCommerce",
+        "uid" : "b2c209ef2313af08",
+        "parentUid" : "714a96f2e3c8e8b869531d80239d28f9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1581068974386,
+          "stop" : 1581068978844,
+          "duration" : 4458
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test 02: Verify desktop page header text",
+        "uid" : "b2f7557a46ff98ad",
+        "parentUid" : "714a96f2e3c8e8b869531d80239d28f9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1581068981125,
+          "stop" : 1581068983654,
+          "duration" : 2529
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test 04: Build your own PC",
+        "uid" : "15f1c39fcdbc4a12",
+        "parentUid" : "714a96f2e3c8e8b869531d80239d28f9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1581068991314,
+          "stop" : 1581068997296,
+          "duration" : 5982
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      } ],
+      "uid" : "714a96f2e3c8e8b869531d80239d28f9"
+    }, {
+      "name" : "13712@IL-DOMER-W.main(1)",
+      "children" : [ {
+        "name" : "startSession",
+        "uid" : "419005df077031ec",
+        "parentUid" : "843193530ae168fe5356e23175932d1b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1580837184971,
+          "stop" : 1580837184975,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test 07: Compare nopCommerce main page icon",
+        "uid" : "5acbfc6adec5d9b5",
+        "parentUid" : "843193530ae168fe5356e23175932d1b",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1580837185144,
+          "stop" : 1580837185147,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "843193530ae168fe5356e23175932d1b"
+    }, {
+      "name" : "2752@IL-DOMER-W.main(1)",
+      "children" : [ {
+        "name" : "Test 02: Verify Subtraction calculation",
+        "uid" : "10d29efa5635a62e",
+        "parentUid" : "a28fcc9ba3bd587094090404d686fcff",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580896298895,
+          "stop" : 1580896301346,
+          "duration" : 2451
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "desktop" ]
+      }, {
+        "name" : "Test 01: Verify Addition calculation",
+        "uid" : "90602367ec876383",
+        "parentUid" : "a28fcc9ba3bd587094090404d686fcff",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580896296271,
+          "stop" : 1580896298801,
+          "duration" : 2530
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "desktop" ]
+      }, {
+        "name" : "Test 03: Verify Multiplication calculation",
+        "uid" : "8ff3907c375ca36c",
+        "parentUid" : "a28fcc9ba3bd587094090404d686fcff",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580896301354,
+          "stop" : 1580896303485,
+          "duration" : 2131
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "desktop" ]
+      }, {
+        "name" : "Test 04: Verify Division calculation",
+        "uid" : "6ffa895695311173",
+        "parentUid" : "a28fcc9ba3bd587094090404d686fcff",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580896303492,
+          "stop" : 1580896306258,
+          "duration" : 2766
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "desktop" ]
+      } ],
+      "uid" : "a28fcc9ba3bd587094090404d686fcff"
+    }, {
+      "name" : "25748@IL-DOMER-W.main(1)",
+      "children" : [ {
+        "name" : "Test 02: Verify Subtraction calculation",
+        "uid" : "63da4fbeff23fd2e",
+        "parentUid" : "a4caf5ec79352c4ccb8472088d17b290",
+        "status" : "broken",
+        "time" : {
+          "start" : 1580831125954,
+          "stop" : 1580831146710,
+          "duration" : 20756
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "desktop" ]
+      }, {
+        "name" : "Test 01: Verify Addition calculation",
+        "uid" : "58a34558c15d455e",
+        "parentUid" : "a4caf5ec79352c4ccb8472088d17b290",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580831112788,
+          "stop" : 1580831125479,
+          "duration" : 12691
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "desktop" ]
+      } ],
+      "uid" : "a4caf5ec79352c4ccb8472088d17b290"
+    }, {
+      "name" : "1332@IL-DOMER-W.main(1)",
+      "children" : [ {
+        "name" : "Test 01: Login to Grafana with DB",
+        "uid" : "c1202252546cc275",
+        "parentUid" : "9ab67e05a4a934051bdc8a7262ba0ee8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580583375644,
+          "stop" : 1580583378994,
+          "duration" : 3350
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9ab67e05a4a934051bdc8a7262ba0ee8"
+    }, {
+      "name" : "19232@IL-DOMER-W.main(1)",
+      "children" : [ {
+        "name" : "Test 04: Build your own PC",
+        "uid" : "5b54ad59a3374e62",
+        "parentUid" : "6f4178d576d3e85a9e2862d2487fde62",
+        "status" : "broken",
+        "time" : {
+          "start" : 1580936009801,
+          "stop" : 1580936015319,
+          "duration" : 5518
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      } ],
+      "uid" : "6f4178d576d3e85a9e2862d2487fde62"
+    }, {
+      "name" : "3056@IL-DOMER-W.main(1)",
+      "children" : [ {
+        "name" : "startSession",
+        "uid" : "1566261036bf97cc",
+        "parentUid" : "7b5cbd01303114fa4bc59727795aaba1",
+        "status" : "broken",
+        "time" : {
+          "start" : 1580842532285,
+          "stop" : 1580842532287,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test 01: Login to NopCommerce",
+        "uid" : "1a000647fa071336",
+        "parentUid" : "7b5cbd01303114fa4bc59727795aaba1",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1580842532381,
+          "stop" : 1580842532383,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test 04: Build your own PC",
+        "uid" : "210fdfd7b43f9b64",
+        "parentUid" : "7b5cbd01303114fa4bc59727795aaba1",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1580842532393,
+          "stop" : 1580842532393,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7b5cbd01303114fa4bc59727795aaba1"
+    }, {
+      "name" : "16240@IL-DOMER-W.main(1)",
+      "children" : [ {
+        "name" : "Test 01: Verify Addition calculation",
+        "uid" : "c2bbed9056d964a1",
+        "parentUid" : "c4b80a0446ab3ca3c3831d7099a08eee",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580714632663,
+          "stop" : 1580714635130,
+          "duration" : 2467
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "desktop" ]
+      }, {
+        "name" : "Test 02: Verify Subtraction calculation",
+        "uid" : "32d799758074f73a",
+        "parentUid" : "c4b80a0446ab3ca3c3831d7099a08eee",
+        "status" : "broken",
+        "time" : {
+          "start" : 1580714635220,
+          "stop" : 1580714646634,
+          "duration" : 11414
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "desktop" ]
+      } ],
+      "uid" : "c4b80a0446ab3ca3c3831d7099a08eee"
+    }, {
+      "name" : "3392@IL-DOMER-W.main(1)",
+      "children" : [ {
+        "name" : "Test 01: Verify mortgage",
+        "uid" : "f725e8888ba6f517",
+        "parentUid" : "7ead0a46595c053d136c69315892b44b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580658047749,
+          "stop" : 1580658052293,
+          "duration" : 4544
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "mobile" ]
+      }, {
+        "name" : "Test 02: Verify mortgage interest only",
+        "uid" : "41b288f1cfa262a4",
+        "parentUid" : "7ead0a46595c053d136c69315892b44b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580658052425,
+          "stop" : 1580658057467,
+          "duration" : 5042
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "mobile" ]
+      } ],
+      "uid" : "7ead0a46595c053d136c69315892b44b"
+    }, {
+      "name" : "2684@IL-DOMER-W.main(1)",
+      "children" : [ {
+        "name" : "Test 01: Login to Grafana with DB",
+        "uid" : "a90eb686cd3a25ba",
+        "parentUid" : "d12e4eee56e0d0cedafb794b8ebaed74",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580581985510,
+          "stop" : 1580581989953,
+          "duration" : 4443
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d12e4eee56e0d0cedafb794b8ebaed74"
+    }, {
+      "name" : "19272@IL-DOMER-W.main(1)",
+      "children" : [ {
+        "name" : "Test 02: Verify Subtraction calculation",
+        "uid" : "cd9a2e68ed7d7d1d",
+        "parentUid" : "3c3448f293ab3e863a4c02a2520cc561",
+        "status" : "broken",
+        "time" : {
+          "start" : 1580886304643,
+          "stop" : 1580886310554,
+          "duration" : 5911
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "desktop" ]
+      }, {
+        "name" : "Test 01: Verify Addition calculation",
+        "uid" : "93187e11989a904a",
+        "parentUid" : "3c3448f293ab3e863a4c02a2520cc561",
+        "status" : "broken",
+        "time" : {
+          "start" : 1580886298634,
+          "stop" : 1580886304551,
+          "duration" : 5917
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "desktop" ]
+      } ],
+      "uid" : "3c3448f293ab3e863a4c02a2520cc561"
+    }, {
+      "name" : "11368@IL-DOMER-W.main(1)",
+      "children" : [ {
+        "name" : "Test 04: Build your own PC",
+        "uid" : "cd0bc1ad128dd487",
+        "parentUid" : "47a8b4063a79576743f0fc2202e868c3",
+        "status" : "failed",
+        "time" : {
+          "start" : 1580935900631,
+          "stop" : 1580935904562,
+          "duration" : 3931
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      } ],
+      "uid" : "47a8b4063a79576743f0fc2202e868c3"
+    }, {
+      "name" : "15980@IL-DOMER-W.main(1)",
+      "children" : [ {
+        "name" : "Test 01: Login to Grafana with DB",
+        "uid" : "61b1f82292068fcf",
+        "parentUid" : "a7ba0e479eaa925ed1f7a7f014c2ce2d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580590854005,
+          "stop" : 1580590855917,
+          "duration" : 1912
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a7ba0e479eaa925ed1f7a7f014c2ce2d"
+    }, {
+      "name" : "10956@IL-DOMER-W.main(1)",
+      "children" : [ {
+        "name" : "Test 01: Login to NopCommerce",
+        "uid" : "8d79d2c8849e0c6a",
+        "parentUid" : "e4d74751c7a220da925239c98c9c876c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580841957146,
+          "stop" : 1580841959298,
+          "duration" : 2152
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test 04: Build your own PC",
+        "uid" : "a80d7d1ad1d88ee1",
+        "parentUid" : "e4d74751c7a220da925239c98c9c876c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1580841960856,
+          "stop" : 1580841968326,
+          "duration" : 7470
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      } ],
+      "uid" : "e4d74751c7a220da925239c98c9c876c"
+    }, {
+      "name" : "16884@IL-DOMER-W.main(1)",
+      "children" : [ {
+        "name" : "Test 01: Verify Addition calculation",
+        "uid" : "3e04c20554536d33",
+        "parentUid" : "c77dd1b2ebd94f9de14ba6ca692b8c29",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1580667644875,
+          "stop" : 1580667644879,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "desktop" ]
+      }, {
+        "name" : "startSession",
+        "uid" : "30f6dddc8b17e17a",
+        "parentUid" : "c77dd1b2ebd94f9de14ba6ca692b8c29",
+        "status" : "broken",
+        "time" : {
+          "start" : 1580667644581,
+          "stop" : 1580667644584,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "desktop" ]
+      } ],
+      "uid" : "c77dd1b2ebd94f9de14ba6ca692b8c29"
+    }, {
+      "name" : "24360@IL-DOMER-W.main(1)",
+      "children" : [ {
+        "name" : "startSession",
+        "uid" : "7580c362dd7d14d0",
+        "parentUid" : "66bfb021e955d053b93e91caba2ad872",
+        "status" : "broken",
+        "time" : {
+          "start" : 1580824619558,
+          "stop" : 1580824619567,
+          "duration" : 9
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test 07: Compare nopCommerce main page icon",
+        "uid" : "472f8e2840b055f9",
+        "parentUid" : "66bfb021e955d053b93e91caba2ad872",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1580824619951,
+          "stop" : 1580824619970,
+          "duration" : 19
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "66bfb021e955d053b93e91caba2ad872"
+    }, {
+      "name" : "1916@IL-DOMER-W.main(1)",
+      "children" : [ {
+        "name" : "Test 04: Build your own PC",
+        "uid" : "854a215c2f01ecb8",
+        "parentUid" : "defb959557df60d0a49524b34ab1ab74",
+        "status" : "failed",
+        "time" : {
+          "start" : 1580897940813,
+          "stop" : 1580897945364,
+          "duration" : 4551
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      } ],
+      "uid" : "defb959557df60d0a49524b34ab1ab74"
+    }, {
+      "name" : "25632@IL-DOMER-W.main(1)",
+      "children" : [ {
+        "name" : "Test 03: Verify Build desktop PC basic price",
+        "uid" : "725a5ea5cb4b327d",
+        "parentUid" : "6e18755339a33d34ae0924fbabb9b57c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1581017683592,
+          "stop" : 1581017688197,
+          "duration" : 4605
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      } ],
+      "uid" : "6e18755339a33d34ae0924fbabb9b57c"
+    }, {
+      "name" : "17632@IL-DOMER-W.main(1)",
+      "children" : [ {
+        "name" : "Test 01: Login to Grafana with DB",
+        "uid" : "8c0da1ac2fa22a6f",
+        "parentUid" : "f4b3f32bf7e66c2d599fea62d73bbb83",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580587265591,
+          "stop" : 1580587268589,
+          "duration" : 2998
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f4b3f32bf7e66c2d599fea62d73bbb83"
+    }, {
+      "name" : "5508@IL-DOMER-W.main(1)",
+      "children" : [ {
+        "name" : "Test 04: Build your own PC",
+        "uid" : "488d474970e45329",
+        "parentUid" : "36d3351b6f5e91e14ac3fab9ce84362e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1580931988719,
+          "stop" : 1580931992233,
+          "duration" : 3514
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      } ],
+      "uid" : "36d3351b6f5e91e14ac3fab9ce84362e"
+    }, {
+      "name" : "19648@IL-DOMER-W.main(1)",
+      "children" : [ {
+        "name" : "Test 01: Verify Addition calculation",
+        "uid" : "fd8499d69c51a75",
+        "parentUid" : "39b0a9ae353665ad068a5ed13bb0e32b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580715308927,
+          "stop" : 1580715311350,
+          "duration" : 2423
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "desktop" ]
+      }, {
+        "name" : "Test 02: Verify Subtraction calculation",
+        "uid" : "2803142c2189f2ab",
+        "parentUid" : "39b0a9ae353665ad068a5ed13bb0e32b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1580715311432,
+          "stop" : 1580715322805,
+          "duration" : 11373
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "desktop" ]
+      } ],
+      "uid" : "39b0a9ae353665ad068a5ed13bb0e32b"
+    }, {
+      "name" : "19200@IL-DOMER-W.main(1)",
+      "children" : [ {
+        "name" : "Test 02: Verify mortgage interest only",
+        "uid" : "113a399c7507e884",
+        "parentUid" : "e5ef828d37a0097be292fd8baf2e9ece",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580658149935,
+          "stop" : 1580658155528,
+          "duration" : 5593
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "mobile" ]
+      }, {
+        "name" : "Test 01: Verify mortgage",
+        "uid" : "4b781db19c6994f3",
+        "parentUid" : "e5ef828d37a0097be292fd8baf2e9ece",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580658145120,
+          "stop" : 1580658149800,
+          "duration" : 4680
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "mobile" ]
+      } ],
+      "uid" : "e5ef828d37a0097be292fd8baf2e9ece"
+    }, {
+      "name" : "19380@IL-DOMER-W.main(1)",
+      "children" : [ {
+        "name" : "Test 01: Verify Addition calculation",
+        "uid" : "3873b911db8ab544",
+        "parentUid" : "78c5170ae9c9cd65f4326476a7c102f2",
+        "status" : "broken",
+        "time" : {
+          "start" : 1580885758410,
+          "stop" : 1580885764628,
+          "duration" : 6218
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "desktop" ]
+      }, {
+        "name" : "Test 02: Verify Subtraction calculation",
+        "uid" : "2e2a7a061e7f1f",
+        "parentUid" : "78c5170ae9c9cd65f4326476a7c102f2",
+        "status" : "broken",
+        "time" : {
+          "start" : 1580885764733,
+          "stop" : 1580885770711,
+          "duration" : 5978
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "desktop" ]
+      } ],
+      "uid" : "78c5170ae9c9cd65f4326476a7c102f2"
+    }, {
+      "name" : "24516@IL-DOMER-W.main(1)",
+      "children" : [ {
+        "name" : "Test 04: Build your own PC",
+        "uid" : "7427ebe670387ed8",
+        "parentUid" : "918d6c1bce18c0365bfa9ffa5e0d7bd9",
+        "status" : "failed",
+        "time" : {
+          "start" : 1580933491692,
+          "stop" : 1580933496384,
+          "duration" : 4692
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      } ],
+      "uid" : "918d6c1bce18c0365bfa9ffa5e0d7bd9"
+    }, {
+      "name" : "20248@IL-DOMER-W.main(1)",
+      "children" : [ {
+        "name" : "Test 04: Build your own PC",
+        "uid" : "d8f844a47c3fb750",
+        "parentUid" : "4596ffc90807ce26c6da0f42901ffaf3",
+        "status" : "failed",
+        "time" : {
+          "start" : 1580936346237,
+          "stop" : 1580936350152,
+          "duration" : 3915
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      } ],
+      "uid" : "4596ffc90807ce26c6da0f42901ffaf3"
+    }, {
+      "name" : "2076@IL-DOMER-W.main(1)",
+      "children" : [ {
+        "name" : "Test 01: Login to NopCommerce",
+        "uid" : "3b0f3edb63ab389a",
+        "parentUid" : "c5ebc0b2bae0446ac6f0e3a297a73068",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580884379910,
+          "stop" : 1580884382612,
+          "duration" : 2702
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test 04: Build your own PC",
+        "uid" : "49e3a48c8d38082a",
+        "parentUid" : "c5ebc0b2bae0446ac6f0e3a297a73068",
+        "status" : "broken",
+        "time" : {
+          "start" : 1580884383184,
+          "stop" : 1580884397193,
+          "duration" : 14009
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      } ],
+      "uid" : "c5ebc0b2bae0446ac6f0e3a297a73068"
+    }, {
+      "name" : "12456@IL-DOMER-W.main(1)",
+      "children" : [ {
+        "name" : "Test 01: Verify mortgage",
+        "uid" : "58859f73b2dcbdd7",
+        "parentUid" : "dad48174d2c0e27ced4f5e4481d40225",
+        "status" : "passed",
+        "time" : {
+          "start" : 1581022421395,
+          "stop" : 1581022426160,
+          "duration" : 4765
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "mobile" ]
+      }, {
+        "name" : "Test 02: Verify mortgage interest only",
+        "uid" : "facdb89253e5d43d",
+        "parentUid" : "dad48174d2c0e27ced4f5e4481d40225",
+        "status" : "passed",
+        "time" : {
+          "start" : 1581022426285,
+          "stop" : 1581022430830,
+          "duration" : 4545
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "mobile" ]
+      } ],
+      "uid" : "dad48174d2c0e27ced4f5e4481d40225"
+    }, {
+      "name" : "12000@IL-DOMER-W.main(1)",
+      "children" : [ {
+        "name" : "Test 01: Verify screen resolution",
+        "uid" : "bfcefb3a95e4c11",
+        "parentUid" : "bd63385c86ec65a7e146c4e8bde8d87c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1581069060798,
+          "stop" : 1581069062336,
+          "duration" : 1538
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "electron" ]
+      } ],
+      "uid" : "bd63385c86ec65a7e146c4e8bde8d87c"
+    }, {
+      "name" : "23016@IL-DOMER-W.main(1)",
+      "children" : [ {
+        "name" : "startSession",
+        "uid" : "7ad97e0436a4f4a1",
+        "parentUid" : "4b3b0efca83867c5c9bb5a2d8cf345e4",
+        "status" : "broken",
+        "time" : {
+          "start" : 1580668315368,
+          "stop" : 1580668315371,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "desktop" ]
+      }, {
+        "name" : "Test 01: Verify Addition calculation",
+        "uid" : "6132e0b52746a036",
+        "parentUid" : "4b3b0efca83867c5c9bb5a2d8cf345e4",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1580668315663,
+          "stop" : 1580668315667,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "desktop" ]
+      } ],
+      "uid" : "4b3b0efca83867c5c9bb5a2d8cf345e4"
+    }, {
+      "name" : "16116@IL-DOMER-W.main(1)",
+      "children" : [ {
+        "name" : "startSession",
+        "uid" : "88168ec8f62a36aa",
+        "parentUid" : "a3a2ca47144f687e58d59515f92e929c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1580842739892,
+          "stop" : 1580842739895,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test 04: Build your own PC",
+        "uid" : "f57deaf1fb894c6e",
+        "parentUid" : "a3a2ca47144f687e58d59515f92e929c",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1580842739997,
+          "stop" : 1580842739999,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a3a2ca47144f687e58d59515f92e929c"
+    }, {
+      "name" : "27272@IL-DOMER-W.main(1)",
+      "children" : [ {
+        "name" : "Test 01: Login to Grafana with DB",
+        "uid" : "57d2147369d723d3",
+        "parentUid" : "dd17098bfa2a3b0a5844e5c96f4f1042",
+        "status" : "passed",
+        "time" : {
+          "start" : 1581067749124,
+          "stop" : 1581067753452,
+          "duration" : 4328
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "db" ]
+      } ],
+      "uid" : "dd17098bfa2a3b0a5844e5c96f4f1042"
+    }, {
+      "name" : "12788@IL-DOMER-W.main(1)",
+      "children" : [ {
+        "name" : "Test 04: Build your own PC",
+        "uid" : "200cac9d61e6a858",
+        "parentUid" : "423f1d7a402bc0bb64fce30110332dd9",
+        "status" : "broken",
+        "time" : {
+          "start" : 1580841800438,
+          "stop" : 1580841812790,
+          "duration" : 12352
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test 01: Login to NopCommerce",
+        "uid" : "be19f1efafef2e9a",
+        "parentUid" : "423f1d7a402bc0bb64fce30110332dd9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580841796736,
+          "stop" : 1580841798880,
+          "duration" : 2144
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      } ],
+      "uid" : "423f1d7a402bc0bb64fce30110332dd9"
+    }, {
+      "name" : "15672@IL-DOMER-W.main(1)",
+      "children" : [ {
+        "name" : "Test 01: Login to Grafana with DB",
+        "uid" : "d2b272d44a52743e",
+        "parentUid" : "d77db26cfc0d3fd1439e350412ef246a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1581067089388,
+          "stop" : 1581067092544,
+          "duration" : 3156
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "db" ]
+      }, {
+        "name" : "closeSession",
+        "uid" : "77a43cb5bd22b7a",
+        "parentUid" : "d77db26cfc0d3fd1439e350412ef246a",
+        "status" : "broken",
+        "time" : {
+          "start" : 1581067093742,
+          "stop" : 1581067093743,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "db" ]
+      } ],
+      "uid" : "d77db26cfc0d3fd1439e350412ef246a"
+    }, {
+      "name" : "12720@IL-DOMER-W.main(1)",
+      "children" : [ {
+        "name" : "Test 02: Verify Subtraction calculation",
+        "uid" : "e57578740548c0e",
+        "parentUid" : "1166e42037dfd9ca2604243ef6d23a5d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1580837587645,
+          "stop" : 1580837596404,
+          "duration" : 8759
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "desktop" ]
+      }, {
+        "name" : "Test 01: Verify Addition calculation",
+        "uid" : "35638744a511ab28",
+        "parentUid" : "1166e42037dfd9ca2604243ef6d23a5d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580837582228,
+          "stop" : 1580837587479,
+          "duration" : 5251
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "desktop" ]
+      } ],
+      "uid" : "1166e42037dfd9ca2604243ef6d23a5d"
+    }, {
+      "name" : "26148@IL-DOMER-W.main(1)",
+      "children" : [ {
+        "name" : "Test 01: Verify mortgage",
+        "uid" : "feaf21acd062cca5",
+        "parentUid" : "465d551a247f7376b8a10e460b167e69",
+        "status" : "broken",
+        "time" : {
+          "start" : 1581022299274,
+          "stop" : 1581022305593,
+          "duration" : 6319
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "mobile" ]
+      }, {
+        "name" : "Test 02: Verify mortgage interest only",
+        "uid" : "4e22ec13dd39aa96",
+        "parentUid" : "465d551a247f7376b8a10e460b167e69",
+        "status" : "broken",
+        "time" : {
+          "start" : 1581022305666,
+          "stop" : 1581022311899,
+          "duration" : 6233
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "mobile" ]
+      } ],
+      "uid" : "465d551a247f7376b8a10e460b167e69"
+    }, {
+      "name" : "3464@IL-DOMER-W.main(1)",
+      "children" : [ {
+        "name" : "Test 01: Verify Addition calculation",
+        "uid" : "1c6d0d8ed1133ffb",
+        "parentUid" : "7a1f834acfc225fe3a18919a3f9341e3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580896049070,
+          "stop" : 1580896051569,
+          "duration" : 2499
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "desktop" ]
+      }, {
+        "name" : "Test 02: Verify Subtraction calculation",
+        "uid" : "7db82ac312bd3747",
+        "parentUid" : "7a1f834acfc225fe3a18919a3f9341e3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580896051647,
+          "stop" : 1580896054030,
+          "duration" : 2383
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "desktop" ]
+      } ],
+      "uid" : "7a1f834acfc225fe3a18919a3f9341e3"
+    }, {
+      "name" : "6296@IL-DOMER-W.main(1)",
+      "children" : [ {
+        "name" : "Test 01: Login to Grafana with DB",
+        "uid" : "82458abe1ba47fac",
+        "parentUid" : "bd2b321d1af54ba51e640fec32465dcb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1581067307639,
+          "stop" : 1581067311316,
+          "duration" : 3677
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "db" ]
+      } ],
+      "uid" : "bd2b321d1af54ba51e640fec32465dcb"
+    }, {
+      "name" : "22752@IL-DOMER-W.main(1)",
+      "children" : [ {
+        "name" : "Test 03: Delete team from Grafana and verify",
+        "uid" : "63ed8610df04b86b",
+        "parentUid" : "d0372af1c3538d9025bc080ce5c7ac81",
+        "status" : "passed",
+        "time" : {
+          "start" : 1581068070962,
+          "stop" : 1581068071177,
+          "duration" : 215
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "api" ]
+      }, {
+        "name" : "Test 02: Update team value in Grafana and verify",
+        "uid" : "59e37c389c4e7dbb",
+        "parentUid" : "d0372af1c3538d9025bc080ce5c7ac81",
+        "status" : "passed",
+        "time" : {
+          "start" : 1581068070690,
+          "stop" : 1581068070944,
+          "duration" : 254
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "api" ]
+      }, {
+        "name" : "Test 01: Post team to Grafana and verify",
+        "uid" : "8a39c7b00d956de3",
+        "parentUid" : "d0372af1c3538d9025bc080ce5c7ac81",
+        "status" : "passed",
+        "time" : {
+          "start" : 1581068067922,
+          "stop" : 1581068070489,
+          "duration" : 2567
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "api" ]
+      } ],
+      "uid" : "d0372af1c3538d9025bc080ce5c7ac81"
+    }, {
+      "name" : "25636@IL-DOMER-W.main(1)",
+      "children" : [ {
+        "name" : "Test 03: Verify Build desktop PC basic price",
+        "uid" : "2f9f4c3d962b7ee",
+        "parentUid" : "ffb839bcdcb95049febc57e097fad9ab",
+        "status" : "passed",
+        "time" : {
+          "start" : 1581017731832,
+          "stop" : 1581017737778,
+          "duration" : 5946
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test 04: Build your own PC",
+        "uid" : "f160630e63240ead",
+        "parentUid" : "ffb839bcdcb95049febc57e097fad9ab",
+        "status" : "passed",
+        "time" : {
+          "start" : 1581017740052,
+          "stop" : 1581017745340,
+          "duration" : 5288
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      } ],
+      "uid" : "ffb839bcdcb95049febc57e097fad9ab"
+    }, {
+      "name" : "18928@IL-DOMER-W.main(1)",
+      "children" : [ {
+        "name" : "Test 01: Verify Addition calculation",
+        "uid" : "b78579bdb458f6e3",
+        "parentUid" : "d62a2d289b4bfb626e4c9546816d66a9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580895275744,
+          "stop" : 1580895278343,
+          "duration" : 2599
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "desktop" ]
+      }, {
+        "name" : "Test 02: Verify Subtraction calculation",
+        "uid" : "a6899c1dd6aa410e",
+        "parentUid" : "d62a2d289b4bfb626e4c9546816d66a9",
+        "status" : "failed",
+        "time" : {
+          "start" : 1580895278432,
+          "stop" : 1580895281132,
+          "duration" : 2700
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "desktop" ]
+      } ],
+      "uid" : "d62a2d289b4bfb626e4c9546816d66a9"
+    }, {
+      "name" : "21968@IL-DOMER-W.main(1)",
+      "children" : [ {
+        "name" : "Test 04: Build your own PC",
+        "uid" : "73cd93690db6a6e0",
+        "parentUid" : "ae8ffb67d50110ff93fd16347c614749",
+        "status" : "failed",
+        "time" : {
+          "start" : 1580935938687,
+          "stop" : 1580935942644,
+          "duration" : 3957
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      } ],
+      "uid" : "ae8ffb67d50110ff93fd16347c614749"
+    }, {
+      "name" : "22708@IL-DOMER-W.main(1)",
+      "children" : [ {
+        "name" : "Test 01: Verify Addition calculation",
+        "uid" : "78d52aa2d4adf1e",
+        "parentUid" : "5b9da9d17f50747f7897d7f7d19b7046",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580715527317,
+          "stop" : 1580715529834,
+          "duration" : 2517
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "desktop" ]
+      }, {
+        "name" : "Test 02: Verify Subtraction calculation",
+        "uid" : "7ceba7d6adfa9271",
+        "parentUid" : "5b9da9d17f50747f7897d7f7d19b7046",
+        "status" : "broken",
+        "time" : {
+          "start" : 1580715529940,
+          "stop" : 1580715541362,
+          "duration" : 11422
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "desktop" ]
+      } ],
+      "uid" : "5b9da9d17f50747f7897d7f7d19b7046"
+    }, {
+      "name" : "4156@IL-DOMER-W.main(1)",
+      "children" : [ {
+        "name" : "Test 01: Login to Grafana with DB",
+        "uid" : "a0767092018bd7c",
+        "parentUid" : "601820ba6324c6baf97679e0e4f163ad",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580587996875,
+          "stop" : 1580588001544,
+          "duration" : 4669
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "601820ba6324c6baf97679e0e4f163ad"
+    }, {
+      "name" : "13692@IL-DOMER-W.main(1)",
+      "children" : [ {
+        "name" : "Test 04: Build your own PC",
+        "uid" : "194e8631ef06c221",
+        "parentUid" : "ae809ebf92f3f5087f33f94b985ccd1e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1580898408234,
+          "stop" : 1580898413626,
+          "duration" : 5392
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      } ],
+      "uid" : "ae809ebf92f3f5087f33f94b985ccd1e"
+    }, {
+      "name" : "3584@IL-DOMER-W.main(1)",
+      "children" : [ {
+        "name" : "Test 04: Build your own PC",
+        "uid" : "7518df9c58c3d083",
+        "parentUid" : "c77842ad826b2c3b716ba8b368950cef",
+        "status" : "broken",
+        "time" : {
+          "start" : 1580842766660,
+          "stop" : 1580842778114,
+          "duration" : 11454
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test 01: Login to NopCommerce",
+        "uid" : "ab48699bc98bc7b2",
+        "parentUid" : "c77842ad826b2c3b716ba8b368950cef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580842762669,
+          "stop" : 1580842765931,
+          "duration" : 3262
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      } ],
+      "uid" : "c77842ad826b2c3b716ba8b368950cef"
+    }, {
+      "name" : "16856@IL-DOMER-W.main(1)",
+      "children" : [ {
+        "name" : "startSession",
+        "uid" : "175e32d16a083fa4",
+        "parentUid" : "6881faebc884de2335b0d034ece15a7c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1581022205906,
+          "stop" : 1581022205909,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test 02: Verify mortgage interest only",
+        "uid" : "701af679524680a2",
+        "parentUid" : "6881faebc884de2335b0d034ece15a7c",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1581022206018,
+          "stop" : 1581022206018,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test 01: Verify mortgage",
+        "uid" : "2ddd6678747ddf4",
+        "parentUid" : "6881faebc884de2335b0d034ece15a7c",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1581022206007,
+          "stop" : 1581022206009,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6881faebc884de2335b0d034ece15a7c"
+    }, {
+      "name" : "15764@IL-DOMER-W.main(1)",
+      "children" : [ {
+        "name" : "Test 02: Verify Subtraction calculation",
+        "uid" : "60cb1ffb028d1969",
+        "parentUid" : "eaee94b15d85d74fe802fc040509e3e9",
+        "status" : "broken",
+        "time" : {
+          "start" : 1580841306586,
+          "stop" : 1580841312520,
+          "duration" : 5934
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "desktop" ]
+      }, {
+        "name" : "Test 01: Verify Addition calculation",
+        "uid" : "c28ea20eea6879f5",
+        "parentUid" : "eaee94b15d85d74fe802fc040509e3e9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580841304813,
+          "stop" : 1580841306529,
+          "duration" : 1716
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "desktop" ]
+      } ],
+      "uid" : "eaee94b15d85d74fe802fc040509e3e9"
+    }, {
+      "name" : "452@IL-DOMER-W.main(1)",
+      "children" : [ {
+        "name" : "Test 01: Login to Grafana with DB",
+        "uid" : "6b2b9f5cce6896cf",
+        "parentUid" : "c5773d9b4ab83228d1363d39a3d6f76e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1581067880915,
+          "stop" : 1581067884058,
+          "duration" : 3143
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "db" ]
+      } ],
+      "uid" : "c5773d9b4ab83228d1363d39a3d6f76e"
+    }, {
+      "name" : "12728@IL-DOMER-W.main(1)",
+      "children" : [ {
+        "name" : "Test 04: Build your own PC",
+        "uid" : "8e2a261ea3d2240b",
+        "parentUid" : "e30626b6a4cdf0423b88ee4aaa258258",
+        "status" : "failed",
+        "time" : {
+          "start" : 1580936564380,
+          "stop" : 1580936571774,
+          "duration" : 7394
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      } ],
+      "uid" : "e30626b6a4cdf0423b88ee4aaa258258"
+    }, {
+      "name" : "8156@IL-DOMER-W.main(1)",
+      "children" : [ {
+        "name" : "Test 04: Build your own PC",
+        "uid" : "ce6a58acb3f8de57",
+        "parentUid" : "3160072acd3d375105589d86b12f22ff",
+        "status" : "failed",
+        "time" : {
+          "start" : 1580936372279,
+          "stop" : 1580936376245,
+          "duration" : 3966
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      } ],
+      "uid" : "3160072acd3d375105589d86b12f22ff"
+    }, {
+      "name" : "2544@IL-DOMER-W.main(1)",
+      "children" : [ {
+        "name" : "Test 04: Build your own PC",
+        "uid" : "d9e9617c314e287a",
+        "parentUid" : "fb54c28c1869bcd689dec84ab77e96fe",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580934079739,
+          "stop" : 1580934123257,
+          "duration" : 43518
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      } ],
+      "uid" : "fb54c28c1869bcd689dec84ab77e96fe"
+    }, {
+      "name" : "11628@IL-DOMER-W.main(1)",
+      "children" : [ {
+        "name" : "Test 04: Build your own PC",
+        "uid" : "f3bfd86ac745cd8e",
+        "parentUid" : "2c1373d3958b415d7356e86a85d93020",
+        "status" : "failed",
+        "time" : {
+          "start" : 1580935701562,
+          "stop" : 1580935705600,
+          "duration" : 4038
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      } ],
+      "uid" : "2c1373d3958b415d7356e86a85d93020"
+    }, {
+      "name" : "25912@IL-DOMER-W.main(1)",
+      "children" : [ {
+        "name" : "Test 02: Verify Subtraction calculation",
+        "uid" : "4f3068ceef595743",
+        "parentUid" : "a176fc0d6d507dd2cd92dc93dd67bf80",
+        "status" : "broken",
+        "time" : {
+          "start" : 1580831634715,
+          "stop" : 1580831706504,
+          "duration" : 71789
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "desktop" ]
+      }, {
+        "name" : "Test 01: Verify Addition calculation",
+        "uid" : "2c65622461dc4f5f",
+        "parentUid" : "a176fc0d6d507dd2cd92dc93dd67bf80",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580831500609,
+          "stop" : 1580831634308,
+          "duration" : 133699
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "desktop" ]
+      } ],
+      "uid" : "a176fc0d6d507dd2cd92dc93dd67bf80"
+    }, {
+      "name" : "20284@IL-DOMER-W.main(1)",
+      "children" : [ {
+        "name" : "Test 01: Verify Addition calculation",
+        "uid" : "423918044703ef1a",
+        "parentUid" : "c52fe7693faff388c85d15532687edad",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580669656848,
+          "stop" : 1580669666012,
+          "duration" : 9164
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "desktop" ]
+      } ],
+      "uid" : "c52fe7693faff388c85d15532687edad"
+    }, {
+      "name" : "15304@IL-DOMER-W.main(1)",
+      "children" : [ {
+        "name" : "Test 04: Build your own PC",
+        "uid" : "cca0b9487c6923e8",
+        "parentUid" : "819bd4522ad07af9b942dcf3c6ce7dce",
+        "status" : "failed",
+        "time" : {
+          "start" : 1580934710508,
+          "stop" : 1580934714979,
+          "duration" : 4471
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      } ],
+      "uid" : "819bd4522ad07af9b942dcf3c6ce7dce"
+    }, {
+      "name" : "6148@IL-DOMER-W.main(1)",
+      "children" : [ {
+        "name" : "Test 04: Build your own PC",
+        "uid" : "273465ec32bf4066",
+        "parentUid" : "94dc0a5f2e3b3eb2379eb7e3519ec79d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1580934002835,
+          "stop" : 1580934006924,
+          "duration" : 4089
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      } ],
+      "uid" : "94dc0a5f2e3b3eb2379eb7e3519ec79d"
+    }, {
+      "name" : "11596@IL-DOMER-W.main(1)",
+      "children" : [ {
+        "name" : "Test 04: Build your own PC",
+        "uid" : "4c191c4b45633ac2",
+        "parentUid" : "fda03dfc403b0500546a47680127d470",
+        "status" : "failed",
+        "time" : {
+          "start" : 1580898092168,
+          "stop" : 1580898096831,
+          "duration" : 4663
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      } ],
+      "uid" : "fda03dfc403b0500546a47680127d470"
+    }, {
+      "name" : "3624@IL-DOMER-W.main(1)",
+      "children" : [ {
+        "name" : "Test 04: Build your own PC",
+        "uid" : "accfeb4169eb8924",
+        "parentUid" : "e85df11241c458d498edce89588f412d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1580934739385,
+          "stop" : 1580934742909,
+          "duration" : 3524
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      } ],
+      "uid" : "e85df11241c458d498edce89588f412d"
+    }, {
+      "name" : "23928@IL-DOMER-W.main(1)",
+      "children" : [ {
+        "name" : "Test 04: Build your own PC",
+        "uid" : "f1d5d9f53d0d893b",
+        "parentUid" : "3be8449c6c2d6d3e5a11cac811e52ca9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580963802106,
+          "stop" : 1580963808132,
+          "duration" : 6026
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      } ],
+      "uid" : "3be8449c6c2d6d3e5a11cac811e52ca9"
+    }, {
+      "name" : "18476@IL-DOMER-W.main(1)",
+      "children" : [ {
+        "name" : "Test 04: Build your own PC",
+        "uid" : "f75b8477bd718b27",
+        "parentUid" : "075141a52487b8193e264b27b0e16587",
+        "status" : "failed",
+        "time" : {
+          "start" : 1580934408573,
+          "stop" : 1580934412356,
+          "duration" : 3783
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      } ],
+      "uid" : "075141a52487b8193e264b27b0e16587"
+    } ],
+    "uid" : "bf9f1c6f28ce3df8b8f7d4f0d53eed6b"
+  } ]
+}

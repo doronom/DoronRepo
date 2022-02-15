@@ -1,0 +1,486 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "startSession",
+    "uid" : "7ad97e0436a4f4a1",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1580668315368,
+      "stop" : 1580668315371,
+      "duration" : 3
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "desktop" ]
+  }, {
+    "name" : "startSession",
+    "uid" : "269cbf175de52b57",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1580824590404,
+      "stop" : 1580824590425,
+      "duration" : 21
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Test 01: Login to Grafana with DB",
+    "uid" : "f09d705897b8f597",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1580824590910,
+      "stop" : 1580824590917,
+      "duration" : 7
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "startSession",
+    "uid" : "960e868df2fd5507",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1580831328237,
+      "stop" : 1580831328241,
+      "duration" : 4
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Test 01: Verify Addition calculation",
+    "uid" : "b6a13057fbaaf00a",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1580831328448,
+      "stop" : 1580831328452,
+      "duration" : 4
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Test 02: Verify Subtraction calculation",
+    "uid" : "19eb6d636e789ed0",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1580831328474,
+      "stop" : 1580831328474,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Test 07: Compare nopCommerce main page icon",
+    "uid" : "5acbfc6adec5d9b5",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1580837185144,
+      "stop" : 1580837185147,
+      "duration" : 3
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Test 01: Login to NopCommerce",
+    "uid" : "1a000647fa071336",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1580842532381,
+      "stop" : 1580842532383,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "startSession",
+    "uid" : "88168ec8f62a36aa",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1580842739892,
+      "stop" : 1580842739895,
+      "duration" : 3
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Test 04: Build your own PC",
+    "uid" : "f57deaf1fb894c6e",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1580842739997,
+      "stop" : 1580842739999,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Test 04: Verify Division calculation",
+    "uid" : "a55f8a37a0fd6006",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1580896225371,
+      "stop" : 1580896228054,
+      "duration" : 2683
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "desktop" ]
+  }, {
+    "name" : "Test 03: Verify Multiplication calculation",
+    "uid" : "4bc1a33007c6148f",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1580896228063,
+      "stop" : 1580896230164,
+      "duration" : 2101
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "desktop" ]
+  }, {
+    "name" : "startSession",
+    "uid" : "258de2e31d9eb2dc",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1581022067940,
+      "stop" : 1581022067942,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "mobile" ]
+  }, {
+    "name" : "startSession",
+    "uid" : "175e32d16a083fa4",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1581022205906,
+      "stop" : 1581022205909,
+      "duration" : 3
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Test 01: Verify mortgage",
+    "uid" : "2ddd6678747ddf4",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1581022206007,
+      "stop" : 1581022206009,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Test 02: Verify mortgage interest only",
+    "uid" : "701af679524680a2",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1581022206018,
+      "stop" : 1581022206018,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Test 01: Verify mortgage",
+    "uid" : "58859f73b2dcbdd7",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1581022421395,
+      "stop" : 1581022426160,
+      "duration" : 4765
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "mobile" ]
+  }, {
+    "name" : "Test 02: Verify mortgage interest only",
+    "uid" : "facdb89253e5d43d",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1581022426285,
+      "stop" : 1581022430830,
+      "duration" : 4545
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "mobile" ]
+  }, {
+    "name" : "closeSession",
+    "uid" : "77a43cb5bd22b7a",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1581067093742,
+      "stop" : 1581067093743,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "db" ]
+  }, {
+    "name" : "startSession",
+    "uid" : "fa369931ea1738aa",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1581067346731,
+      "stop" : 1581067346735,
+      "duration" : 4
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "db" ]
+  }, {
+    "name" : "Test 01: Login to Grafana with DB",
+    "uid" : "57d2147369d723d3",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1581067749124,
+      "stop" : 1581067753452,
+      "duration" : 4328
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "db" ]
+  }, {
+    "name" : "Test 01: Post team to Grafana and verify",
+    "uid" : "8a39c7b00d956de3",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1581068067922,
+      "stop" : 1581068070489,
+      "duration" : 2567
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "api" ]
+  }, {
+    "name" : "Test 02: Update team value in Grafana and verify",
+    "uid" : "59e37c389c4e7dbb",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1581068070690,
+      "stop" : 1581068070944,
+      "duration" : 254
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "api" ]
+  }, {
+    "name" : "Test 03: Delete team from Grafana and verify",
+    "uid" : "63ed8610df04b86b",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1581068070962,
+      "stop" : 1581068071177,
+      "duration" : 215
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "api" ]
+  }, {
+    "name" : "Test 01: Verify Addition calculation",
+    "uid" : "cbd993fa57285c02",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1581068112050,
+      "stop" : 1581068128346,
+      "duration" : 16296
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "desktop" ]
+  }, {
+    "name" : "Test 02: Verify Subtraction calculation",
+    "uid" : "568ed3a100491c06",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1581068128549,
+      "stop" : 1581068145453,
+      "duration" : 16904
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "desktop" ]
+  }, {
+    "name" : "Test 03: Verify Multiplication calculation",
+    "uid" : "2af27c0f1ffb17bf",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1581068145506,
+      "stop" : 1581068159624,
+      "duration" : 14118
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "desktop" ]
+  }, {
+    "name" : "Test 04: Verify Division calculation",
+    "uid" : "22dcdbcd44687b64",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1581068159639,
+      "stop" : 1581068178484,
+      "duration" : 18845
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "desktop" ]
+  }, {
+    "name" : "Test 01: Login to Grafana with DB",
+    "uid" : "918ee133f9d9e2f0",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1581068659859,
+      "stop" : 1581068663409,
+      "duration" : 3550
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "db" ]
+  }, {
+    "name" : "Test 01: Verify screen resolution",
+    "uid" : "bfcefb3a95e4c11",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1581069060798,
+      "stop" : 1581069062336,
+      "duration" : 1538
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "electron" ]
+  }, {
+    "name" : "Test 01: Login to NopCommerce",
+    "uid" : "797474e3c1c387f6",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1581076482518,
+      "stop" : 1581076486121,
+      "duration" : 3603
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "web" ]
+  }, {
+    "name" : "Test 02: Verify desktop page header text",
+    "uid" : "a187134160c15564",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1581076487908,
+      "stop" : 1581076489625,
+      "duration" : 1717
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "web" ]
+  }, {
+    "name" : "Test 03: Verify Build desktop PC basic price",
+    "uid" : "a97b6966fd3c13de",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1581076491103,
+      "stop" : 1581076495999,
+      "duration" : 4896
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "web" ]
+  }, {
+    "name" : "Test 04: Build your own PC",
+    "uid" : "5200b3692431a550",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1581076496944,
+      "stop" : 1581076502575,
+      "duration" : 5631
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "web" ]
+  }, {
+    "name" : "Test 05: Verify Digital storm model price",
+    "uid" : "3ee0d8b7c34fbcad",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1581076503389,
+      "stop" : 1581076507359,
+      "duration" : 3970
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "web" ]
+  }, {
+    "name" : "Test 06: Verify All in one PC rating",
+    "uid" : "771812f45af2733f",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1581076508232,
+      "stop" : 1581076512831,
+      "duration" : 4599
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "web" ]
+  }, {
+    "name" : "Test 07: Compare nopCommerce main page icon",
+    "uid" : "93a7c3f39b374a50",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1581076513758,
+      "stop" : 1581076520625,
+      "duration" : 6867
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "web" ]
+  } ]
+}

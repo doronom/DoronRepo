@@ -1,0 +1,145 @@
+{
+  "uid" : "918d92964d979fbc",
+  "name" : "Test 07: Compare nopCommerce main page icon",
+  "fullName" : "SanityTests.NopCommerceWeb.Test07_compareIcon",
+  "historyId" : "4ba98f5686f9e05f0b707ebb2abf61d3",
+  "time" : {
+    "start" : 1581068860086,
+    "stop" : 1581068866785,
+    "duration" : 6699
+  },
+  "description" : "Test Description: Verify that nopCommerce icon doesn't changed",
+  "descriptionHtml" : "<p>Test Description: Verify that nopCommerce icon doesn't changed</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "startSession",
+    "time" : {
+      "start" : 1581068810852,
+      "stop" : 1581068822413,
+      "duration" : 11561
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "Test Description: Verify that nopCommerce icon doesn't changed",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Compare main image logo",
+      "time" : {
+        "start" : 1581068860143,
+        "stop" : 1581068866785,
+        "duration" : 6642
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "imgElm",
+        "value" : "[[ChromeDriver: chrome on WINDOWS (b700185fbbecaa9db5b467c62d6dee85)] -> xpath: //a/img[@src='//demo.nopcommerce.com/Themes/DefaultClean/Content/images/logo.png']]"
+      }, {
+        "name" : "expectedImgName",
+        "value" : "nopCommerceLogo"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 1
+  },
+  "afterStages" : [ {
+    "name" : "closeSession",
+    "time" : {
+      "start" : 1581068867509,
+      "stop" : 1581068868319,
+      "duration" : 810
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "afterMethod",
+    "time" : {
+      "start" : 1581068866789,
+      "stop" : 1581068867504,
+      "duration" : 715
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "SanityTests.NopCommerceWeb"
+  }, {
+    "name" : "testClass",
+    "value" : "SanityTests.NopCommerceWeb"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test07_compareIcon"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Web Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "SanityTests.NopCommerceWeb"
+  }, {
+    "name" : "host",
+    "value" : "IL-DOMER-W"
+  }, {
+    "name" : "thread",
+    "value" : "2916@IL-DOMER-W.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "PlatformName",
+    "value" : "web"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "918d92964d979fbc.json",
+  "parameterValues" : [ "web" ]
+}

@@ -1,0 +1,235 @@
+{
+  "uid" : "27227ad5a7e80df9",
+  "name" : "Test 06: Verify All in one PC rating",
+  "fullName" : "SanityTests.NopCommerceWeb.Test06_verifyAllInOneRating",
+  "historyId" : "c015ae239b42deff55801bf4eb2737af",
+  "time" : {
+    "start" : 1581075886936,
+    "stop" : 1581075890676,
+    "duration" : 3740
+  },
+  "description" : "Test Description: Verify All in one PC users rating",
+  "descriptionHtml" : "<p>Test Description: Verify All in one PC users rating</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "startSession",
+    "time" : {
+      "start" : 1581075836290,
+      "stop" : 1581075847532,
+      "duration" : 11242
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "Test Description: Verify All in one PC users rating",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Get all in one PC rating",
+      "time" : {
+        "start" : 1581075886936,
+        "stop" : 1581075890586,
+        "duration" : 3650
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Mouse hover from element to element action",
+        "time" : {
+          "start" : 1581075886985,
+          "stop" : 1581075888224,
+          "duration" : 1239
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elm1",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (0af79700f9841d6664d27105d8fe6481)] -> xpath: //*[@href='/computers']]"
+        }, {
+          "name" : "elm2",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (0af79700f9841d6664d27105d8fe6481)] -> xpath: //a[@href='/desktops']]"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 0
+      }, {
+        "name" : "Select from drop-down list by value",
+        "time" : {
+          "start" : 1581075888249,
+          "stop" : 1581075889343,
+          "duration" : 1094
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elm",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (0af79700f9841d6664d27105d8fe6481)] -> id: products-orderby]"
+        }, {
+          "name" : "value",
+          "value" : "Price: Low to High"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 0
+      }, {
+        "name" : "Select from drop-down list by index",
+        "time" : {
+          "start" : 1581075889429,
+          "stop" : 1581075890586,
+          "duration" : 1157
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elm",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (0af79700f9841d6664d27105d8fe6481)] -> id: products-pagesize]"
+        }, {
+          "name" : "index",
+          "value" : "0"
+        }, {
+          "name" : "elm1",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (0af79700f9841d6664d27105d8fe6481)] -> xpath: //*[@id='products-orderby']/option[4]]"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "value",
+        "value" : "Price: Low to High"
+      }, {
+        "name" : "index",
+        "value" : "0"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 3
+    }, {
+      "name" : "Compare a text to element",
+      "time" : {
+        "start" : 1581075890614,
+        "stop" : 1581075890676,
+        "duration" : 62
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "elm",
+        "value" : "[[ChromeDriver: chrome on WINDOWS (0af79700f9841d6664d27105d8fe6481)] -> xpath: //div[@class='rating']/div]"
+      }, {
+        "name" : "value",
+        "value" : "style"
+      }, {
+        "name" : "expValue",
+        "value" : "100%"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 5
+  },
+  "afterStages" : [ {
+    "name" : "afterMethod",
+    "time" : {
+      "start" : 1581075890686,
+      "stop" : 1581075891589,
+      "duration" : 903
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "closeSession",
+    "time" : {
+      "start" : 1581075899509,
+      "stop" : 1581075900248,
+      "duration" : 739
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "SanityTests.NopCommerceWeb"
+  }, {
+    "name" : "testClass",
+    "value" : "SanityTests.NopCommerceWeb"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test06_verifyAllInOneRating"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Web Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "SanityTests.NopCommerceWeb"
+  }, {
+    "name" : "host",
+    "value" : "IL-DOMER-W"
+  }, {
+    "name" : "thread",
+    "value" : "8704@IL-DOMER-W.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "PlatformName",
+    "value" : "web"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "27227ad5a7e80df9.json",
+  "parameterValues" : [ "web" ]
+}
